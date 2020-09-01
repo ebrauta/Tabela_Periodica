@@ -1,0 +1,1955 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" \ />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" \ />
+    <title>Tabela Periódica</title>
+    <link rel="stylesheet" type="text/css" href="tabela.css" \ />
+  </head>
+  <body>
+    <div id="tabela-periodica-container">
+      <div id="tabela-periodica">
+        <div class="tabela-wrapper">
+          <div class="scroll-area">
+            <div class="group_element" id="group_popup_panel">
+              <div class="group_header_default" id="group_header">
+                Tabela Periódica
+              </div>
+              <div class="mid_group_default" id="group_details">
+                A Tabela Periódica é um modelo que agrupa todos os elementos
+                químicos conhecidos e suas propriedades. Eles estão organizados
+                em ordem crescente correspondente aos números atômicos (número
+                de prótons).
+              </div>
+            </div>
+            <div class="element_info" id="popup_container">
+              <div class="element_header" id="popup_ename_big"></div>
+              <div class="element_details">
+                <div class="element_hover_details">
+                  <div class="element_hover_details_2">
+                    <div class="element_symbol" id="popup_symbol"></div>
+                    <div class="symbol_name" id="popup_ename"></div>
+                  </div>
+                  <div
+                    class="element_hover_details_1"
+                    id="popup_atomicno"
+                  ></div>
+                  <div
+                    class="element_hover_details_3"
+                    id="popup_atomicmass"
+                  ></div>
+                </div>
+                <div class="element_hover_data">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>Símbolo</td>
+                        <td id="element_data_symbol"></td>
+                      </tr>
+                      <tr>
+                        <td>Número atômico</td>
+                        <td id="element_data_atomicnumber"></td>
+                      </tr>
+                      <tr>
+                        <td>Massa atômica</td>
+                        <td id="element_data_atomicmass"></td>
+                      </tr>
+                      <tr>
+                        <td>Configuração eletrônica</td>
+                        <td id="element_data_electconfig"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="element_row">
+              <div
+                id="element_1"
+                class="element e_7"
+                title="Hidrogênio"
+                data-name="Hidrogênio"
+                data-symbol="H"
+                data-atomicnumber="1"
+                data-atomicmass="1.008"
+                data-ec="1s<sup>1</sup>"
+              >
+                <div id="element_no_1" class="element_no">1</div>
+                <div id="element_name_1" class="element_name">
+                  H
+                </div>
+              </div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div
+                id="element_2"
+                class="element e_9"
+                title="Hélio"
+                data-name="Hélio"
+                data-symbol="He"
+                data-atomicnumber="2"
+                data-atomicmass="4.003"
+                data-ec="1s<sup>2</sup>"
+              >
+                <div id="element_no_2" class="element_no">2</div>
+                <div id="element_name_2" class="element_name">
+                  He
+                </div>
+              </div>
+            </div>
+            <div class="element_row">
+              <div
+                id="element_3"
+                class="element e_1"
+                title="Lítio"
+                data-name="Lítio"
+                data-symbol="Li"
+                data-atomicnumber="3"
+                data-atomicmass="6.941"
+                data-ec="1s<sup>2</sup> 2s<sup>1</sup>"
+              >
+                <div id="element_no_3" class="element_no">3</div>
+                <div id="element_name_3" class="element_name">
+                  Li
+                </div>
+              </div>
+              <div
+                id="element_4"
+                class="element e_2"
+                title="Berílio"
+                data-name="Berílio"
+                data-symbol="Be"
+                data-atomicnumber="4"
+                data-atomicmass="9.012"
+                data-ec="1s<sup>2</sup> 2s<sup>2</sup>"
+              >
+                <div id="element_no_4" class="element_no">4</div>
+                <div id="element_name_4" class="element_name">
+                  Be
+                </div>
+              </div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div
+                id="element_5"
+                class="element e_10"
+                title="Boro"
+                data-name="Boro"
+                data-symbol="B"
+                data-atomicnumber="5"
+                data-atomicmass="10.811"
+                data-ec="1s<sup>2</sup> 2s<sup>2</sup> 2p¹"
+              >
+                <div id="element_no_5" class="element_no">5</div>
+                <div id="element_name_5" class="element_name">
+                  B
+                </div>
+              </div>
+              <div
+                id="element_6"
+                class="element e_7"
+                title="Carbono"
+                data-name="Carbono"
+                data-symbol="C"
+                data-atomicnumber="6"
+                data-atomicmass="12.011"
+                data-ec="1s<sup>2</sup> 2s<sup>2</sup> 2p²"
+              >
+                <div id="element_no_6" class="element_no">6</div>
+                <div id="element_name_6" class="element_name">
+                  C
+                </div>
+              </div>
+              <div
+                id="element_7"
+                class="element e_7"
+                title="Nitrogênio"
+                data-name="Nitrogênio"
+                data-symbol="N"
+                data-atomicnumber="7"
+                data-atomicmass="14.007"
+                data-ec="1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>3</sup>"
+              >
+                <div id="element_no_7" class="element_no">7</div>
+                <div id="element_name_7" class="element_name">
+                  N
+                </div>
+              </div>
+              <div
+                id="element_8"
+                class="element e_7"
+                title="Oxigênio"
+                data-name="Oxigênio"
+                data-symbol="O"
+                data-atomicnumber="8"
+                data-atomicmass="15.999"
+                data-ec="1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>4</sup>"
+              >
+                <div id="element_no_8" class="element_no">8</div>
+                <div id="element_name_8" class="element_name">
+                  O
+                </div>
+              </div>
+              <div
+                id="element_9"
+                class="element e_8"
+                title="Flúor"
+                data-name="Flúor"
+                data-symbol="F"
+                data-atomicnumber="9"
+                data-atomicmass="18.998"
+                data-ec="1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>5</sup>"
+              >
+                <div id="element_no_9" class="element_no">9</div>
+                <div id="element_name_9" class="element_name">
+                  F
+                </div>
+              </div>
+              <div
+                id="element_10"
+                class="element e_9"
+                title="Neônio"
+                data-name="Neônio"
+                data-symbol="Ne"
+                data-atomicnumber="10"
+                data-atomicmass="20.18"
+                data-ec="1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup>"
+              >
+                <div id="element_no_10" class="element_no">10</div>
+                <div id="element_name_10" class="element_name">
+                  Ne
+                </div>
+              </div>
+            </div>
+            <div class="element_row">
+              <div
+                id="element_11"
+                class="element e_1"
+                title="Sódio"
+                data-name="Sódio"
+                data-symbol="Na"
+                data-atomicnumber="11"
+                data-atomicmass="22.99"
+                data-ec="[Ne] 3s<sup>1</sup>"
+              >
+                <div id="element_no_11" class="element_no">11</div>
+                <div id="element_name_11" class="element_name">
+                  Na
+                </div>
+              </div>
+              <div
+                id="element_12"
+                class="element e_2"
+                title="Magnésio"
+                data-name="Magnésio"
+                data-symbol="Mg"
+                data-atomicnumber="12"
+                data-atomicmass="24.305"
+                data-ec="[Ne] 3s<sup>2</sup>"
+              >
+                <div id="element_no_12" class="element_no">12</div>
+                <div id="element_name_12" class="element_name">
+                  Mg
+                </div>
+              </div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div
+                id="element_13"
+                class="element e_4"
+                title="Alumínio"
+                data-name="Alumínio"
+                data-symbol="Al"
+                data-atomicnumber="13"
+                data-atomicmass="26.982"
+                data-ec="[Ne] 3s<sup>2</sup> 3p¹"
+              >
+                <div id="element_no_13" class="element_no">13</div>
+                <div id="element_name_13" class="element_name">
+                  Al
+                </div>
+              </div>
+              <div
+                id="element_14"
+                class="element e_10"
+                title="Silício"
+                data-name="Silício"
+                data-symbol="Si"
+                data-atomicnumber="14"
+                data-atomicmass="28.086"
+                data-ec="[Ne] 3s<sup>2</sup> 3p²"
+              >
+                <div id="element_no_14" class="element_no">14</div>
+                <div id="element_name_14" class="element_name">
+                  Si
+                </div>
+              </div>
+              <div
+                id="element_15"
+                class="element e_7"
+                title="Fósforo"
+                data-name="Fósforo"
+                data-symbol="P"
+                data-atomicnumber="15"
+                data-atomicmass="30.974"
+                data-ec="[Ne] 3s<sup>2</sup> 3p<sup>3</sup>"
+              >
+                <div id="element_no_15" class="element_no">15</div>
+                <div id="element_name_15" class="element_name">
+                  P
+                </div>
+              </div>
+              <div
+                id="element_16"
+                class="element e_7"
+                title="Enxofre"
+                data-name="Enxofre"
+                data-symbol="S"
+                data-atomicnumber="16"
+                data-atomicmass="32.065"
+                data-ec="[Ne] 3s<sup>2</sup> 3p<sup>4</sup>"
+              >
+                <div id="element_no_16" class="element_no">16</div>
+                <div id="element_name_16" class="element_name">
+                  S
+                </div>
+              </div>
+              <div
+                id="element_17"
+                class="element e_8"
+                title="Cloro"
+                data-name="Cloro"
+                data-symbol="Cl"
+                data-atomicnumber="17"
+                data-atomicmass="35.453"
+                data-ec="[Ne] 3s<sup>2</sup> 3p<sup>5</sup>"
+              >
+                <div id="element_no_17" class="element_no">17</div>
+                <div id="element_name_17" class="element_name">
+                  Cl
+                </div>
+              </div>
+              <div
+                id="element_18"
+                class="element e_9"
+                title="Argônio"
+                data-name="Argônio"
+                data-symbol="Ar"
+                data-atomicnumber="18"
+                data-atomicmass="39.948"
+                data-ec="[Ne] 3s<sup>2</sup> 3p<sup>6</sup>"
+              >
+                <div id="element_no_18" class="element_no">18</div>
+                <div id="element_name_18" class="element_name">
+                  Ar
+                </div>
+              </div>
+            </div>
+            <div class="element_row">
+              <div
+                id="element_19"
+                class="element e_1"
+                title="Potássio"
+                data-name="Potássio"
+                data-symbol="K"
+                data-atomicnumber="19"
+                data-atomicmass="39.098"
+                data-ec="[Ar] 4s<sup>1</sup>"
+              >
+                <div id="element_no_19" class="element_no">19</div>
+                <div id="element_name_19" class="element_name">
+                  K
+                </div>
+              </div>
+              <div
+                id="element_20"
+                class="element e_2"
+                title="Cálcio"
+                data-name="Cálcio"
+                data-symbol="Ca"
+                data-atomicnumber="20"
+                data-atomicmass="40.078"
+                data-ec="[Ar] 4s<sup>2</sup>"
+              >
+                <div id="element_no_20" class="element_no">20</div>
+                <div id="element_name_20" class="element_name">
+                  Ca
+                </div>
+              </div>
+              <div
+                id="element_21"
+                class="element e_3"
+                title="Escândio"
+                data-name="Escândio"
+                data-symbol="Sc"
+                data-atomicnumber="21"
+                data-atomicmass="44.956"
+                data-ec="[Ar] 3d¹ 4s<sup>2</sup>"
+              >
+                <div id="element_no_21" class="element_no">21</div>
+                <div id="element_name_21" class="element_name">
+                  Sc
+                </div>
+              </div>
+              <div
+                id="element_22"
+                class="element e_3"
+                title="Titânio"
+                data-name="Titânio"
+                data-symbol="Ti"
+                data-atomicnumber="22"
+                data-atomicmass="47.867"
+                data-ec="[Ar] 3d² 4s<sup>2</sup>"
+              >
+                <div id="element_no_22" class="element_no">22</div>
+                <div id="element_name_22" class="element_name">
+                  Ti
+                </div>
+              </div>
+              <div
+                id="element_23"
+                class="element e_3"
+                title="Vanádio"
+                data-name="Vanádio"
+                data-symbol="V"
+                data-atomicnumber="23"
+                data-atomicmass="50.942"
+                data-ec="[Ar] 3d<sup>3</sup> 4s<sup>2</sup>"
+              >
+                <div id="element_no_23" class="element_no">23</div>
+                <div id="element_name_23" class="element_name">
+                  V
+                </div>
+              </div>
+              <div
+                id="element_24"
+                class="element e_3"
+                title="Cromo"
+                data-name="Cromo"
+                data-symbol="Cr"
+                data-atomicnumber="24"
+                data-atomicmass="51.996"
+                data-ec="[Ar] 3d<sup>4</sup> 4s<sup>2</sup>"
+              >
+                <div id="element_no_24" class="element_no">24</div>
+                <div id="element_name_24" class="element_name">
+                  Cr
+                </div>
+              </div>
+              <div
+                id="element_25"
+                class="element e_3"
+                title="Manganês"
+                data-name="Manganês"
+                data-symbol="Mn"
+                data-atomicnumber="25"
+                data-atomicmass="54.938"
+                data-ec="[Ar] 3d<sup>5</sup> 4s<sup>2</sup>"
+              >
+                <div id="element_no_25" class="element_no">25</div>
+                <div id="element_name_25" class="element_name">
+                  Mn
+                </div>
+              </div>
+              <div
+                id="element_26"
+                class="element e_3"
+                title="Ferro"
+                data-name="Ferro"
+                data-symbol="Fe"
+                data-atomicnumber="26"
+                data-atomicmass="55.845"
+                data-ec="[Ar] 3d<sup>6</sup> 4s<sup>2</sup>"
+              >
+                <div id="element_no_26" class="element_no">26</div>
+                <div id="element_name_26" class="element_name">
+                  Fe
+                </div>
+              </div>
+              <div
+                id="element_27"
+                class="element e_3"
+                title="Cobalto"
+                data-name="Cobalto"
+                data-symbol="Co"
+                data-atomicnumber="27"
+                data-atomicmass="58.933"
+                data-ec="[Ar] 3d<sup>7</sup> 4s<sup>2</sup>"
+              >
+                <div id="element_no_27" class="element_no">27</div>
+                <div id="element_name_27" class="element_name">
+                  Co
+                </div>
+              </div>
+              <div
+                id="element_28"
+                class="element e_3"
+                title="Níquel"
+                data-name="Níquel"
+                data-symbol="Ni"
+                data-atomicnumber="28"
+                data-atomicmass="58.693"
+                data-ec="[Ar] 3d<sup>8</sup> 4s<sup>2</sup>"
+              >
+                <div id="element_no_28" class="element_no">28</div>
+                <div id="element_name_28" class="element_name">
+                  Ni
+                </div>
+              </div>
+              <div
+                id="element_29"
+                class="element e_3"
+                title="Cobre"
+                data-name="Cobre"
+                data-symbol="Cu"
+                data-atomicnumber="29"
+                data-atomicmass="63.546"
+                data-ec="[Ar] 3d<sup>9</sup> 4s<sup>2</sup>"
+              >
+                <div id="element_no_29" class="element_no">29</div>
+                <div id="element_name_29" class="element_name">
+                  Cu
+                </div>
+              </div>
+              <div
+                id="element_30"
+                class="element e_3"
+                title="Zinco"
+                data-name="Zinco"
+                data-symbol="Zn"
+                data-atomicnumber="30"
+                data-atomicmass="65.409"
+                data-ec="[Ar] 3d<sup>10</sup> 4s<sup>2</sup>"
+              >
+                <div id="element_no_30" class="element_no">30</div>
+                <div id="element_name_30" class="element_name">
+                  Zn
+                </div>
+              </div>
+              <div
+                id="element_31"
+                class="element e_4"
+                title="Gálio"
+                data-name="Gálio"
+                data-symbol="Ga"
+                data-atomicnumber="31"
+                data-atomicmass="69.723"
+                data-ec="[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p¹"
+              >
+                <div id="element_no_31" class="element_no">31</div>
+                <div id="element_name_31" class="element_name">
+                  Ga
+                </div>
+              </div>
+              <div
+                id="element_32"
+                class="element e_10"
+                title="Germânio"
+                data-name="Germânio"
+                data-symbol="Ge"
+                data-atomicnumber="32"
+                data-atomicmass="72.64"
+                data-ec="[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p²"
+              >
+                <div id="element_no_32" class="element_no">32</div>
+                <div id="element_name_32" class="element_name">
+                  Ge
+                </div>
+              </div>
+              <div
+                id="element_33"
+                class="element e_10"
+                title="Arsênio"
+                data-name="Arsênio"
+                data-symbol="As"
+                data-atomicnumber="33"
+                data-atomicmass="74.922"
+                data-ec="[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>3</sup>"
+              >
+                <div id="element_no_33" class="element_no">33</div>
+                <div id="element_name_33" class="element_name">
+                  As
+                </div>
+              </div>
+              <div
+                id="element_34"
+                class="element e_7"
+                title="Selênio"
+                data-name="Selênio"
+                data-symbol="Se"
+                data-atomicnumber="34"
+                data-atomicmass="78.96"
+                data-ec="[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup>"
+              >
+                <div id="element_no_34" class="element_no">34</div>
+                <div id="element_name_34" class="element_name">
+                  Se
+                </div>
+              </div>
+              <div
+                id="element_35"
+                class="element e_8"
+                title="Bromo"
+                data-name="Bromo"
+                data-symbol="Br"
+                data-atomicnumber="35"
+                data-atomicmass="79.904"
+                data-ec="[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>5</sup>"
+              >
+                <div id="element_no_35" class="element_no">35</div>
+                <div id="element_name_35" class="element_name">
+                  Br
+                </div>
+              </div>
+              <div
+                id="element_36"
+                class="element e_9"
+                title="Criptônio"
+                data-name="Criptônio"
+                data-symbol="Kr"
+                data-atomicnumber="36"
+                data-atomicmass="83.798"
+                data-ec="[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup>"
+              >
+                <div id="element_no_36" class="element_no">36</div>
+                <div id="element_name_36" class="element_name">
+                  Kr
+                </div>
+              </div>
+            </div>
+            <div class="element_row">
+              <div
+                id="element_37"
+                class="element e_1"
+                title="Rubídio"
+                data-name="Rubídio"
+                data-symbol="Rb"
+                data-atomicnumber="37"
+                data-atomicmass="85.468"
+                data-ec="[Kr] 5s<sup>1</sup>"
+              >
+                <div id="element_no_37" class="element_no">37</div>
+                <div id="element_name_37" class="element_name">
+                  Rb
+                </div>
+              </div>
+              <div
+                id="element_38"
+                class="element e_2"
+                title="Estrôncio"
+                data-name="Estrôncio"
+                data-symbol="Sr"
+                data-atomicnumber="38"
+                data-atomicmass="87.62"
+                data-ec="[Kr] 5s<sup>2</sup>"
+              >
+                <div id="element_no_38" class="element_no">38</div>
+                <div id="element_name_38" class="element_name">
+                  Sr
+                </div>
+              </div>
+              <div
+                id="element_39"
+                class="element e_3"
+                title="Ítrio"
+                data-name="Ítrio"
+                data-symbol="Y"
+                data-atomicnumber="39"
+                data-atomicmass="88.906"
+                data-ec="[Kr] 4d¹ 5s<sup>2</sup>"
+              >
+                <div id="element_no_39" class="element_no">39</div>
+                <div id="element_name_39" class="element_name">
+                  Y
+                </div>
+              </div>
+              <div
+                id="element_40"
+                class="element e_3"
+                title="Zircônio"
+                data-name="Zircônio"
+                data-symbol="Zr"
+                data-atomicnumber="40"
+                data-atomicmass="91.224"
+                data-ec="[Kr] 4d² 5s<sup>2</sup>"
+              >
+                <div id="element_no_40" class="element_no">40</div>
+                <div id="element_name_40" class="element_name">
+                  Zr
+                </div>
+              </div>
+              <div
+                id="element_41"
+                class="element e_3"
+                title="Nióbio"
+                data-name="Nióbio"
+                data-symbol="Nb"
+                data-atomicnumber="41"
+                data-atomicmass="92.906 38"
+                data-ec="[Kr] 4d<sup>3</sup> 5s<sup>2</sup>"
+              >
+                <div id="element_no_41" class="element_no">41</div>
+                <div id="element_name_41" class="element_name">
+                  Nb
+                </div>
+              </div>
+              <div
+                id="element_42"
+                class="element e_3"
+                title="Molibdênio"
+                data-name="Molibdênio"
+                data-symbol="Mo"
+                data-atomicnumber="42"
+                data-atomicmass="95.94"
+                data-ec="[Kr] 4d<sup>4</sup> 5s<sup>2</sup>"
+              >
+                <div id="element_no_42" class="element_no">42</div>
+                <div id="element_name_42" class="element_name">
+                  Mo
+                </div>
+              </div>
+              <div
+                id="element_43"
+                class="element e_3"
+                title="Tecnécio"
+                data-name="Tecnécio"
+                data-symbol="Tc"
+                data-atomicnumber="43"
+                data-atomicmass="[98]"
+                data-ec="[Kr] 4d<sup>5</sup> 5s<sup>2</sup>"
+              >
+                <div id="element_no_43" class="element_no">43</div>
+                <div id="element_name_43" class="element_name">
+                  Tc
+                </div>
+              </div>
+              <div
+                id="element_44"
+                class="element e_3"
+                title="Rutênio"
+                data-name="Rutênio"
+                data-symbol="Ru"
+                data-atomicnumber="44"
+                data-atomicmass="101.07"
+                data-ec="[Kr] 4d<sup>6</sup> 5s<sup>2</sup>"
+              >
+                <div id="element_no_44" class="element_no">44</div>
+                <div id="element_name_44" class="element_name">
+                  Ru
+                </div>
+              </div>
+              <div
+                id="element_45"
+                class="element e_3"
+                title="Ródio"
+                data-name="Ródio"
+                data-symbol="Rh"
+                data-atomicnumber="45"
+                data-atomicmass="102.905 50"
+                data-ec="[Kr] 4d<sup>7</sup> 5s<sup>2</sup>"
+              >
+                <div id="element_no_45" class="element_no">45</div>
+                <div id="element_name_45" class="element_name">
+                  Rh
+                </div>
+              </div>
+              <div
+                id="element_46"
+                class="element e_3"
+                title="Paládio"
+                data-name="Paládio"
+                data-symbol="Pd"
+                data-atomicnumber="46"
+                data-atomicmass="106.42"
+                data-ec="[Kr] 4d<sup>8</sup> 5s<sup>2</sup>"
+              >
+                <div id="element_no_46" class="element_no">46</div>
+                <div id="element_name_46" class="element_name">
+                  Pd
+                </div>
+              </div>
+              <div
+                id="element_47"
+                class="element e_3"
+                title="Prata"
+                data-name="Prata"
+                data-symbol="Ag"
+                data-atomicnumber="47"
+                data-atomicmass="107.868"
+                data-ec="[Kr] 4d<sup>9</sup> 5s<sup>2</sup>"
+              >
+                <div id="element_no_47" class="element_no">47</div>
+                <div id="element_name_47" class="element_name">
+                  Ag
+                </div>
+              </div>
+              <div
+                id="element_48"
+                class="element e_3"
+                title="Cádmio"
+                data-name="Cádmio"
+                data-symbol="Cd"
+                data-atomicnumber="48"
+                data-atomicmass="112.411"
+                data-ec="[Kr] 4d<sup>10</sup> 5s<sup>2</sup>"
+              >
+                <div id="element_no_48" class="element_no">48</div>
+                <div id="element_name_48" class="element_name">
+                  Cd
+                </div>
+              </div>
+              <div
+                id="element_49"
+                class="element e_4"
+                title="Índio"
+                data-name="Índio"
+                data-symbol="In"
+                data-atomicnumber="49"
+                data-atomicmass="114.818"
+                data-ec="[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p¹"
+              >
+                <div id="element_no_49" class="element_no">49</div>
+                <div id="element_name_49" class="element_name">
+                  In
+                </div>
+              </div>
+              <div
+                id="element_50"
+                class="element e_4"
+                title="Estanho"
+                data-name="Estanho"
+                data-symbol="Sn"
+                data-atomicnumber="50"
+                data-atomicmass="118.71"
+                data-ec="[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p²"
+              >
+                <div id="element_no_50" class="element_no">50</div>
+                <div id="element_name_50" class="element_name">
+                  Sn
+                </div>
+              </div>
+              <div
+                id="element_51"
+                class="element e_10"
+                title="Antimônio"
+                data-name="Antimônio"
+                data-symbol="Sb"
+                data-atomicnumber="51"
+                data-atomicmass="121.76"
+                data-ec="[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>3</sup>"
+              >
+                <div id="element_no_51" class="element_no">51</div>
+                <div id="element_name_51" class="element_name">
+                  Sb
+                </div>
+              </div>
+              <div
+                id="element_52"
+                class="element e_10"
+                title="Telúrio"
+                data-name="Telúrio"
+                data-symbol="Te"
+                data-atomicnumber="52"
+                data-atomicmass="128.6"
+                data-ec="[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>4</sup>"
+              >
+                <div id="element_no_52" class="element_no">52</div>
+                <div id="element_name_52" class="element_name">
+                  Te
+                </div>
+              </div>
+              <div
+                id="element_53"
+                class="element e_8"
+                title="Iodo"
+                data-name="Iodo"
+                data-symbol="I"
+                data-atomicnumber="53"
+                data-atomicmass="126.904 47"
+                data-ec="[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>5</sup>"
+              >
+                <div id="element_no_53" class="element_no">53</div>
+                <div id="element_name_53" class="element_name">
+                  I
+                </div>
+              </div>
+              <div
+                id="element_54"
+                class="element e_9"
+                title="Xenônio"
+                data-name="Xenônio"
+                data-symbol="Xe"
+                data-atomicnumber="54"
+                data-atomicmass="131.293"
+                data-ec="[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>6</sup>"
+              >
+                <div id="element_no_54" class="element_no">54</div>
+                <div id="element_name_54" class="element_name">
+                  Xe
+                </div>
+              </div>
+            </div>
+            <div class="element_row">
+              <div
+                id="element_55"
+                class="element e_1"
+                title="Césio"
+                data-name="Césio"
+                data-symbol="Cs"
+                data-atomicnumber="55"
+                data-atomicmass="132.905"
+                data-ec="[Xe] 6s<sup>1</sup>"
+              >
+                <div id="element_no_55" class="element_no">55</div>
+                <div id="element_name_55" class="element_name">
+                  Cs
+                </div>
+              </div>
+              <div
+                id="element_56"
+                class="element e_2"
+                title="Bário"
+                data-name="Bário"
+                data-symbol="Ba"
+                data-atomicnumber="56"
+                data-atomicmass="137.327"
+                data-ec="[Xe] 6s<sup>2</sup>"
+              >
+                <div id="element_no_56" class="element_no">56</div>
+                <div id="element_name_56" class="element_name">
+                  Ba
+                </div>
+              </div>
+              <div
+                id="element_57-71"
+                class="element e_lantanideos-arrows"
+                title=""
+                data-name=""
+                data-symbol=""
+                data-atomicnumber="57-71"
+                data-atomicmass=""
+                data-ec=""
+              >
+                <div id="element_no_57-71" class="element_no">57-71</div>
+                <div id="element_name_57-71" class="element_name"></div>
+              </div>
+              <div
+                id="element_72"
+                class="element e_3"
+                title="Háfnio"
+                data-name="Háfnio"
+                data-symbol="Hf"
+                data-atomicnumber="72"
+                data-atomicmass="178.49"
+                data-ec="[Xe] 4f<sup>14</sup> 5d² 6s<sup>2</sup>"
+              >
+                <div id="element_no_72" class="element_no">72</div>
+                <div id="element_name_72" class="element_name">
+                  Hf
+                </div>
+              </div>
+              <div
+                id="element_73"
+                class="element e_3"
+                title="Tântalo"
+                data-name="Tântalo"
+                data-symbol="Ta"
+                data-atomicnumber="73"
+                data-atomicmass="180.948"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>3</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_73" class="element_no">73</div>
+                <div id="element_name_73" class="element_name">
+                  Ta
+                </div>
+              </div>
+              <div
+                id="element_74"
+                class="element e_3"
+                title="Tungstênio"
+                data-name="Tungstênio"
+                data-symbol="W"
+                data-atomicnumber="74"
+                data-atomicmass="183.84"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>4</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_74" class="element_no">74</div>
+                <div id="element_name_74" class="element_name">
+                  W
+                </div>
+              </div>
+              <div
+                id="element_75"
+                class="element e_3"
+                title="Rênio"
+                data-name="Rênio"
+                data-symbol="Re"
+                data-atomicnumber="75"
+                data-atomicmass="186.207"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>5</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_75" class="element_no">75</div>
+                <div id="element_name_75" class="element_name">
+                  Re
+                </div>
+              </div>
+              <div
+                id="element_76"
+                class="element e_3"
+                title="Ósmio"
+                data-name="Ósmio"
+                data-symbol="Os"
+                data-atomicnumber="76"
+                data-atomicmass="190.23"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>6</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_76" class="element_no">76</div>
+                <div id="element_name_76" class="element_name">
+                  Os
+                </div>
+              </div>
+              <div
+                id="element_77"
+                class="element e_3"
+                title="Irídio"
+                data-name="Irídio"
+                data-symbol="Ir"
+                data-atomicnumber="77"
+                data-atomicmass="192.217"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>7</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_77" class="element_no">77</div>
+                <div id="element_name_77" class="element_name">
+                  Ir
+                </div>
+              </div>
+              <div
+                id="element_78"
+                class="element e_3"
+                title="Platina"
+                data-name="Platina"
+                data-symbol="Pt"
+                data-atomicnumber="78"
+                data-atomicmass="195.084"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>8</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_78" class="element_no">78</div>
+                <div id="element_name_78" class="element_name">
+                  Pt
+                </div>
+              </div>
+              <div
+                id="element_79"
+                class="element e_3"
+                title="Ouro"
+                data-name="Ouro"
+                data-symbol="Au"
+                data-atomicnumber="79"
+                data-atomicmass="196.967"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>9</sup> 6s<sup>1</sup>"
+              >
+                <div id="element_no_79" class="element_no">79</div>
+                <div id="element_name_79" class="element_name">
+                  Au
+                </div>
+              </div>
+              <div
+                id="element_80"
+                class="element e_3"
+                title="Mercúrio"
+                data-name="Mercúrio"
+                data-symbol="Hg"
+                data-atomicnumber="80"
+                data-atomicmass="200.59"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_80" class="element_no">80</div>
+                <div id="element_name_80" class="element_name">
+                  Hg
+                </div>
+              </div>
+              <div
+                id="element_81"
+                class="element e_4"
+                title="Tálio"
+                data-name="Tálio"
+                data-symbol="Tl"
+                data-atomicnumber="81"
+                data-atomicmass="204.383"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p¹"
+              >
+                <div id="element_no_81" class="element_no">81</div>
+                <div id="element_name_81" class="element_name">
+                  Tl
+                </div>
+              </div>
+              <div
+                id="element_82"
+                class="element e_4"
+                title="Chumbo"
+                data-name="Chumbo"
+                data-symbol="Pb"
+                data-atomicnumber="82"
+                data-atomicmass="207.2"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p²"
+              >
+                <div id="element_no_82" class="element_no">82</div>
+                <div id="element_name_82" class="element_name">
+                  Pb
+                </div>
+              </div>
+              <div
+                id="element_83"
+                class="element e_4"
+                title="Bismuto"
+                data-name="Bismuto"
+                data-symbol="Bi"
+                data-atomicnumber="83"
+                data-atomicmass="208.98"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>3</sup>"
+              >
+                <div id="element_no_83" class="element_no">83</div>
+                <div id="element_name_83" class="element_name">
+                  Bi
+                </div>
+              </div>
+              <div
+                id="element_84"
+                class="element e_10"
+                title="Polônio"
+                data-name="Polônio"
+                data-symbol="Po"
+                data-atomicnumber="84"
+                data-atomicmass="[210]"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>4</sup>"
+              >
+                <div id="element_no_84" class="element_no">84</div>
+                <div id="element_name_84" class="element_name">
+                  Po
+                </div>
+              </div>
+              <div
+                id="element_85"
+                class="element e_8"
+                title="Ástato"
+                data-name="Ástato"
+                data-symbol="At"
+                data-atomicnumber="85"
+                data-atomicmass="[210]"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>5</sup>"
+              >
+                <div id="element_no_85" class="element_no">85</div>
+                <div id="element_name_85" class="element_name">
+                  At
+                </div>
+              </div>
+              <div
+                id="element_86"
+                class="element e_9"
+                title="Radônio"
+                data-name="Radônio"
+                data-symbol="Rn"
+                data-atomicnumber="86"
+                data-atomicmass="[220]"
+                data-ec="[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>6</sup>"
+              >
+                <div id="element_no_86" class="element_no">86</div>
+                <div id="element_name_86" class="element_name">
+                  Rn
+                </div>
+              </div>
+            </div>
+            <div class="element_row">
+              <div
+                id="element_87"
+                class="element e_1"
+                title="Frâncio"
+                data-name="Frâncio"
+                data-symbol="Fr"
+                data-atomicnumber="87"
+                data-atomicmass="[223]"
+                data-ec="[Rn] 7s<sup>1</sup>"
+              >
+                <div id="element_no_87" class="element_no">87</div>
+                <div id="element_name_87" class="element_name">
+                  Fr
+                </div>
+              </div>
+              <div
+                id="element_88"
+                class="element e_2"
+                title="Rádio"
+                data-name="Rádio"
+                data-symbol="Ra"
+                data-atomicnumber="88"
+                data-atomicmass="[226]"
+                data-ec="[Rn] 7s<sup>2</sup>"
+              >
+                <div id="element_no_88" class="element_no">88</div>
+                <div id="element_name_88" class="element_name">
+                  Ra
+                </div>
+              </div>
+              <div
+                id="element_89-103"
+                class="element e_actinidios-arrows"
+                title=""
+                data-name=""
+                data-symbol=""
+                data-atomicnumber="89-103"
+                data-atomicmass=""
+                data-ec=""
+              >
+                <div id="element_no_89-103" class="element_no">89-103</div>
+                <div id="element_name_89-103" class="element_name"></div>
+              </div>
+              <div
+                id="element_104"
+                class="element e_3"
+                title="Rutherfórdio"
+                data-name="Rutherfórdio"
+                data-symbol="Rf"
+                data-atomicnumber="104"
+                data-atomicmass="261"
+                data-ec=""
+              >
+                <div id="element_no_104" class="element_no">104</div>
+                <div id="element_name_104" class="element_name">
+                  Rf
+                </div>
+              </div>
+              <div
+                id="element_105"
+                class="element e_3"
+                title="Dúbnio"
+                data-name="Dúbnio"
+                data-symbol="Db"
+                data-atomicnumber="105"
+                data-atomicmass="[262]"
+                data-ec=""
+              >
+                <div id="element_no_105" class="element_no">105</div>
+                <div id="element_name_105" class="element_name">
+                  Db
+                </div>
+              </div>
+              <div
+                id="element_106"
+                class="element e_3"
+                title="Seabórgio"
+                data-name="Seabórgio"
+                data-symbol="Sg"
+                data-atomicnumber="106"
+                data-atomicmass="[266]"
+                data-ec=""
+              >
+                <div id="element_no_106" class="element_no">106</div>
+                <div id="element_name_106" class="element_name">
+                  Sg
+                </div>
+              </div>
+              <div
+                id="element_107"
+                class="element e_3"
+                title="Bóhrio"
+                data-name="Bóhrio"
+                data-symbol="Bh"
+                data-atomicnumber="107"
+                data-atomicmass="[264]"
+                data-ec=""
+              >
+                <div id="element_no_107" class="element_no">107</div>
+                <div id="element_name_107" class="element_name">
+                  Bh
+                </div>
+              </div>
+              <div
+                id="element_108"
+                class="element e_3"
+                title="Hássio"
+                data-name="Hássio"
+                data-symbol="Hs"
+                data-atomicnumber="108"
+                data-atomicmass="[277]"
+                data-ec=""
+              >
+                <div id="element_no_108" class="element_no">108</div>
+                <div id="element_name_108" class="element_name">
+                  Hs
+                </div>
+              </div>
+              <div
+                id="element_109"
+                class="element e_3"
+                title="Meitnério"
+                data-name="Meitnério"
+                data-symbol="Mt"
+                data-atomicnumber="109"
+                data-atomicmass="[268]"
+                data-ec=""
+              >
+                <div id="element_no_109" class="element_no">109</div>
+                <div id="element_name_109" class="element_name">
+                  Mt
+                </div>
+              </div>
+              <div
+                id="element_110"
+                class="element e_3"
+                title="Darmstádio"
+                data-name="Darmstádio"
+                data-symbol="Ds"
+                data-atomicnumber="110"
+                data-atomicmass="[271]"
+                data-ec=""
+              >
+                <div id="element_no_110" class="element_no">110</div>
+                <div id="element_name_110" class="element_name">
+                  Ds
+                </div>
+              </div>
+              <div
+                id="element_111"
+                class="element e_3"
+                title="Roentgênio"
+                data-name="Roentgênio"
+                data-symbol="Rg"
+                data-atomicnumber="111"
+                data-atomicmass="[272]"
+                data-ec=""
+              >
+                <div id="element_no_111" class="element_no">111</div>
+                <div id="element_name_111" class="element_name">
+                  Rg
+                </div>
+              </div>
+              <div
+                id="element_112"
+                class="element e_3"
+                title="Copernício"
+                data-name="Copernício"
+                data-symbol="Cn"
+                data-atomicnumber="112"
+                data-atomicmass="[277]"
+                data-ec=""
+              >
+                <div id="element_no_112" class="element_no">112</div>
+                <div id="element_name_112" class="element_name">
+                  Cn
+                </div>
+              </div>
+              <div
+                id="element_113"
+                class="element e_4"
+                title="Nihônio"
+                data-name="Nihônio"
+                data-symbol="Nh"
+                data-atomicnumber="113"
+                data-atomicmass="[286]"
+                data-ec=""
+              >
+                <div id="element_no_113" class="element_no">113</div>
+                <div id="element_name_113" class="element_name">
+                  Nh
+                </div>
+              </div>
+              <div
+                id="element_114"
+                class="element e_4"
+                title="Fleróvio"
+                data-name="Fleróvio"
+                data-symbol="Fl"
+                data-atomicnumber="114"
+                data-atomicmass="[289]"
+                data-ec=""
+              >
+                <div id="element_no_114" class="element_no">114</div>
+                <div id="element_name_114" class="element_name">
+                  Fl
+                </div>
+              </div>
+              <div
+                id="element_115"
+                class="element e_4"
+                title="Moscóvio"
+                data-name="Moscóvio"
+                data-symbol="Mc"
+                data-atomicnumber="115"
+                data-atomicmass="[288]"
+                data-ec=""
+              >
+                <div id="element_no_115" class="element_no">115</div>
+                <div id="element_name_115" class="element_name">
+                  Mc
+                </div>
+              </div>
+              <div
+                id="element_116"
+                class="element e_4"
+                title="Livermório"
+                data-name="Livermório"
+                data-symbol="Lv"
+                data-atomicnumber="116"
+                data-atomicmass="[293]"
+                data-ec=""
+              >
+                <div id="element_no_116" class="element_no">116</div>
+                <div id="element_name_116" class="element_name">
+                  Lv
+                </div>
+              </div>
+              <div
+                id="element_117"
+                class="element e_8"
+                title="Tenessino"
+                data-name="Tenessino"
+                data-symbol="Ts"
+                data-atomicnumber="117"
+                data-atomicmass="[294]"
+                data-ec=""
+              >
+                <div id="element_no_117" class="element_no">117</div>
+                <div id="element_name_117" class="element_name">
+                  Ts
+                </div>
+              </div>
+              <div
+                id="element_118"
+                class="element e_9"
+                title="Oganessônio"
+                data-name="Oganessônio"
+                data-symbol="Og"
+                data-atomicnumber="118"
+                data-atomicmass="[294]"
+                data-ec=""
+              >
+                <div id="element_no_118" class="element_no">118</div>
+                <div id="element_name_118" class="element_name">
+                  Og
+                </div>
+              </div>
+            </div>
+            <div class="blank_row"></div>
+            <div class="element_row">
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div
+                id="element_57"
+                class="element e_5"
+                title="Lantânio"
+                data-name="Lantânio"
+                data-symbol="La"
+                data-atomicnumber="57"
+                data-atomicmass="138.905"
+                data-ec="[Xe] 4f¹ 6s<sup>2</sup>"
+              >
+                <div id="element_no_57" class="element_no">57</div>
+                <div id="element_name_57" class="element_name">
+                  La
+                </div>
+              </div>
+              <div
+                id="element_58"
+                class="element e_5"
+                title="Cério"
+                data-name="Cério"
+                data-symbol="Ce"
+                data-atomicnumber="58"
+                data-atomicmass="140.116"
+                data-ec="[Xe] 4f² 6s<sup>2</sup>"
+              >
+                <div id="element_no_58" class="element_no">58</div>
+                <div id="element_name_58" class="element_name">
+                  Ce
+                </div>
+              </div>
+              <div
+                id="element_59"
+                class="element e_5"
+                title="Praseodímio"
+                data-name="Praseodímio"
+                data-symbol="Pr"
+                data-atomicnumber="59"
+                data-atomicmass="140.908"
+                data-ec="[Xe] 4f<sup>3</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_59" class="element_no">59</div>
+                <div id="element_name_59" class="element_name">
+                  Pr
+                </div>
+              </div>
+              <div
+                id="element_60"
+                class="element e_5"
+                title="Neodímio"
+                data-name="Neodímio"
+                data-symbol="Nd"
+                data-atomicnumber="60"
+                data-atomicmass="144.242"
+                data-ec="[Xe] 4f<sup>4</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_60" class="element_no">60</div>
+                <div id="element_name_60" class="element_name">
+                  Nd
+                </div>
+              </div>
+              <div
+                id="element_61"
+                class="element e_5"
+                title="Promécio"
+                data-name="Promécio"
+                data-symbol="Pm"
+                data-atomicnumber="61"
+                data-atomicmass="[145]"
+                data-ec="[Xe] 4f<sup>5</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_61" class="element_no">61</div>
+                <div id="element_name_61" class="element_name">
+                  Pm
+                </div>
+              </div>
+              <div
+                id="element_62"
+                class="element e_5"
+                title="Samário"
+                data-name="Samário"
+                data-symbol="Sm"
+                data-atomicnumber="62"
+                data-atomicmass="150.36"
+                data-ec="[Xe] 4f<sup>6</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_62" class="element_no">62</div>
+                <div id="element_name_62" class="element_name">
+                  Sm
+                </div>
+              </div>
+              <div
+                id="element_63"
+                class="element e_5"
+                title="Európio"
+                data-name="Európio"
+                data-symbol="Eu"
+                data-atomicnumber="63"
+                data-atomicmass="151.964"
+                data-ec="[Xe] 4f<sup>7</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_63" class="element_no">63</div>
+                <div id="element_name_63" class="element_name">
+                  Eu
+                </div>
+              </div>
+              <div
+                id="element_64"
+                class="element e_5"
+                title="Gadolínio"
+                data-name="Gadolínio"
+                data-symbol="Gd"
+                data-atomicnumber="64"
+                data-atomicmass="157.25"
+                data-ec="[Xe] 4f<sup>8</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_64" class="element_no">64</div>
+                <div id="element_name_64" class="element_name">
+                  Gd
+                </div>
+              </div>
+              <div
+                id="element_65"
+                class="element e_5"
+                title="Térbio"
+                data-name="Térbio"
+                data-symbol="Tb"
+                data-atomicnumber="65"
+                data-atomicmass="158.925"
+                data-ec="[Xe] 4f<sup>9</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_65" class="element_no">65</div>
+                <div id="element_name_65" class="element_name">
+                  Tb
+                </div>
+              </div>
+              <div
+                id="element_66"
+                class="element e_5"
+                title="Disprósio"
+                data-name="Disprósio"
+                data-symbol="Dy"
+                data-atomicnumber="66"
+                data-atomicmass="162.5"
+                data-ec="[Xe] 4f<sup>10</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_66" class="element_no">66</div>
+                <div id="element_name_66" class="element_name">
+                  Dy
+                </div>
+              </div>
+              <div
+                id="element_67"
+                class="element e_5"
+                title="Hólmio"
+                data-name="Hólmio"
+                data-symbol="Ho"
+                data-atomicnumber="67"
+                data-atomicmass="164.930 32"
+                data-ec="[Xe] 4f<sup>11</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_67" class="element_no">67</div>
+                <div id="element_name_67" class="element_name">
+                  Ho
+                </div>
+              </div>
+              <div
+                id="element_68"
+                class="element e_5"
+                title="Érbio"
+                data-name="Érbio"
+                data-symbol="Er"
+                data-atomicnumber="68"
+                data-atomicmass="167.259"
+                data-ec="[Xe] 4f<sup>12</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_68" class="element_no">68</div>
+                <div id="element_name_68" class="element_name">
+                  Er
+                </div>
+              </div>
+              <div
+                id="element_69"
+                class="element e_5"
+                title="Túlio"
+                data-name="Túlio"
+                data-symbol="Tm"
+                data-atomicnumber="69"
+                data-atomicmass="168.934"
+                data-ec="[Xe] 4f<sup>13</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_69" class="element_no">69</div>
+                <div id="element_name_69" class="element_name">
+                  Tm
+                </div>
+              </div>
+              <div
+                id="element_70"
+                class="element e_5"
+                title="Itérbio"
+                data-name="Itérbio"
+                data-symbol="Yb"
+                data-atomicnumber="70"
+                data-atomicmass="173.04"
+                data-ec="[Xe] 4f<sup>14</sup> 6s<sup>2</sup>"
+              >
+                <div id="element_no_70" class="element_no">70</div>
+                <div id="element_name_70" class="element_name">
+                  Yb
+                </div>
+              </div>
+              <div
+                id="element_71"
+                class="element e_5"
+                title="Lutécio"
+                data-name="Lutécio"
+                data-symbol="Lu"
+                data-atomicnumber="71"
+                data-atomicmass="174.967"
+                data-ec="[Xe] 4f<sup>14</sup> 5d¹ 6s<sup>2</sup>"
+              >
+                <div id="element_no_71" class="element_no">71</div>
+                <div id="element_name_71" class="element_name">
+                  Lu
+                </div>
+              </div>
+            </div>
+            <div class="element_row">
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div class="element_blank"></div>
+              <div
+                id="element_89"
+                class="element e_6"
+                title="Actínio"
+                data-name="Actínio"
+                data-symbol="Ac"
+                data-atomicnumber="89"
+                data-atomicmass="[227]"
+                data-ec="[Rn] 5f¹ 7s<sup>2</sup>"
+              >
+                <div id="element_no_89" class="element_no">89</div>
+                <div id="element_name_89" class="element_name">
+                  Ac
+                </div>
+              </div>
+              <div
+                id="element_90"
+                class="element e_6"
+                title="Tório"
+                data-name="Tório"
+                data-symbol="Th"
+                data-atomicnumber="90"
+                data-atomicmass="232.03806"
+                data-ec="[Rn] 5f² 7s<sup>2</sup>"
+              >
+                <div id="element_no_90" class="element_no">90</div>
+                <div id="element_name_90" class="element_name">
+                  Th
+                </div>
+              </div>
+              <div
+                id="element_91"
+                class="element e_6"
+                title="Protactínio"
+                data-name="Protactínio"
+                data-symbol="Pa"
+                data-atomicnumber="91"
+                data-atomicmass="231.03588"
+                data-ec="[Rn] 5f<sup>3</sup> 7s<sup>2</sup>"
+              >
+                <div id="element_no_91" class="element_no">91</div>
+                <div id="element_name_91" class="element_name">
+                  Pa
+                </div>
+              </div>
+              <div
+                id="element_92"
+                class="element e_6"
+                title="Urânio"
+                data-name="Urânio"
+                data-symbol="U"
+                data-atomicnumber="92"
+                data-atomicmass="238.02891"
+                data-ec="[Rn] 5f<sup>4</sup> 7s<sup>2</sup>"
+              >
+                <div id="element_no_92" class="element_no">92</div>
+                <div id="element_name_92" class="element_name">
+                  U
+                </div>
+              </div>
+              <div
+                id="element_93"
+                class="element e_6"
+                title="Netúnio"
+                data-name="Netúnio"
+                data-symbol="Np"
+                data-atomicnumber="93"
+                data-atomicmass="[237]"
+                data-ec="[Rn] 5f<sup>5</sup> 7s<sup>2</sup>"
+              >
+                <div id="element_no_93" class="element_no">93</div>
+                <div id="element_name_93" class="element_name">
+                  Np
+                </div>
+              </div>
+              <div
+                id="element_94"
+                class="element e_6"
+                title="Plutônio"
+                data-name="Plutônio"
+                data-symbol="Pu"
+                data-atomicnumber="94"
+                data-atomicmass="[244]"
+                data-ec="[Rn] 5f<sup>6</sup> 7s<sup>2</sup>"
+              >
+                <div id="element_no_94" class="element_no">94</div>
+                <div id="element_name_94" class="element_name">
+                  Pu
+                </div>
+              </div>
+              <div
+                id="element_95"
+                class="element e_6"
+                title="Amerício"
+                data-name="Amerício"
+                data-symbol="Am"
+                data-atomicnumber="95"
+                data-atomicmass="[243]"
+                data-ec="[Rn] 5f<sup>7</sup> 7s<sup>2</sup>"
+              >
+                <div id="element_no_95" class="element_no">95</div>
+                <div id="element_name_95" class="element_name">
+                  Am
+                </div>
+              </div>
+              <div
+                id="element_96"
+                class="element e_6"
+                title="Cúrio"
+                data-name="Cúrio"
+                data-symbol="Cm"
+                data-atomicnumber="96"
+                data-atomicmass="[247]"
+                data-ec="[Rn] 5f<sup>8</sup> 7s<sup>2</sup>"
+              >
+                <div id="element_no_96" class="element_no">96</div>
+                <div id="element_name_96" class="element_name">
+                  Cm
+                </div>
+              </div>
+              <div
+                id="element_97"
+                class="element e_6"
+                title="Berquélio"
+                data-name="Berquélio"
+                data-symbol="Bk"
+                data-atomicnumber="97"
+                data-atomicmass="[247]"
+                data-ec="[Rn] 5f<sup>9</sup> 7s<sup>2</sup>"
+              >
+                <div id="element_no_97" class="element_no">97</div>
+                <div id="element_name_97" class="element_name">
+                  Bk
+                </div>
+              </div>
+              <div
+                id="element_98"
+                class="element e_6"
+                title="Califórnio"
+                data-name="Califórnio"
+                data-symbol="Cf"
+                data-atomicnumber="98"
+                data-atomicmass="[251]"
+                data-ec="[Rn] 5f<sup>10</sup> 7s<sup>2</sup>"
+              >
+                <div id="element_no_98" class="element_no">98</div>
+                <div id="element_name_98" class="element_name">
+                  Cf
+                </div>
+              </div>
+              <div
+                id="element_99"
+                class="element e_6"
+                title="Einsténio"
+                data-name="Einsténio"
+                data-symbol="Es"
+                data-atomicnumber="99"
+                data-atomicmass="[252]"
+                data-ec="[Rn] 5f<sup>11</sup> 7s<sup>2</sup>"
+              >
+                <div id="element_no_99" class="element_no">99</div>
+                <div id="element_name_99" class="element_name">
+                  Es
+                </div>
+              </div>
+              <div
+                id="element_100"
+                class="element e_6"
+                title="Férmio"
+                data-name="Férmio"
+                data-symbol="Fm"
+                data-atomicnumber="100"
+                data-atomicmass="[257]"
+                data-ec="[Rn] 5f<sup>12</sup> 7s<sup>2</sup>"
+              >
+                <div id="element_no_100" class="element_no">100</div>
+                <div id="element_name_100" class="element_name">
+                  Fm
+                </div>
+              </div>
+              <div
+                id="element_101"
+                class="element e_6"
+                title="Mendelévio"
+                data-name="Mendelévio"
+                data-symbol="Md"
+                data-atomicnumber="101"
+                data-atomicmass="[258]"
+                data-ec="[Rn] 5f<sup>13</sup> 7s<sup>2</sup>"
+              >
+                <div id="element_no_101" class="element_no">101</div>
+                <div id="element_name_101" class="element_name">
+                  Md
+                </div>
+              </div>
+              <div
+                id="element_102"
+                class="element e_6"
+                title="Nobélio"
+                data-name="Nobélio"
+                data-symbol="No"
+                data-atomicnumber="102"
+                data-atomicmass="[259]"
+                data-ec="[Rn] 5f<sup>14</sup> 7s<sup>2</sup>"
+              >
+                <div id="element_no_102" class="element_no">102</div>
+                <div id="element_name_102" class="element_name">
+                  No
+                </div>
+              </div>
+              <div
+                id="element_103"
+                class="element e_6"
+                title="Laurêncio"
+                data-name="Laurêncio"
+                data-symbol="Lr"
+                data-atomicnumber="103"
+                data-atomicmass="[262]"
+                data-ec=""
+              >
+                <div id="element_no_103" class="element_no">103</div>
+                <div id="element_name_103" class="element_name">
+                  Lr
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="elements_captions">
+        <div class="element_caption element_caption_7">Não metais</div>
+
+        <div class="element_caption element_caption_9">Gases nobres</div>
+
+        <div class="element_caption element_caption_1">Metais alcalinos</div>
+
+        <div class="element_caption element_caption_2">
+          Metais alcalino-terrosos
+        </div>
+
+        <div class="element_caption element_caption_10">Semimetais</div>
+
+        <div class="element_caption element_caption_8">Halogênios</div>
+
+        <div class="element_caption element_caption_4">Outros metais</div>
+
+        <div class="element_caption element_caption_3">Metais de transição</div>
+
+        <div class="element_caption element_caption_5">Lantanídeos</div>
+
+        <div class="element_caption element_caption_6">Actinídios</div>
+      </div>
+    </div>
+    <script
+      async
+      src="tabela.js"
+    ></script>
+  </body>
+</html>
