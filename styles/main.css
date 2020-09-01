@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{ 
+    width: 900px;
+    margin: 0 auto;
+}
+
+.tabela{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: space-between;
+    align-items: baseline;
+}
+.group_element{
+    position: relative;
+    height: 200px;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify;
+    margin: 15px auto;
+}
+.group_header_default, .mid_group_default{
+    text-align: justify;
+    padding: 10px;
+}
+.group_header_default{
+    font-size: 1.8rem;
+    background: #E6E6E6;
+    border: 1px solid #e7e7e7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100vh;
+}
+.mid_group_default{
+    font-size: 1.2rem;
+    background: #fefefe;
+    padding: 0;
+    margin-top: 10px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+#selected{
+    color: white;
+    background: tomato;
+}
+.element{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.atomic_number{
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: right;
+}
+.symbol{
+    font-size: 1.70rem;
+    font-weight: 600;
+    text-align: center;
+}
+.information{
+    display: flex;
+    min-width: 100vh;
+    padding: 10px;
+}
+.information_element{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 100px;
+    background: tomato;
+    position: relative;
+}
+.information_electronic_configuration{
+    font-size: 0.75rem;
+    text-align: left;
+}
+.information_electronic_configuration sup{
+    font-size: 0.55rem;
+}
+.information_symbol{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.information_name{
+    font-size: 1rem;
+}
+.other_informations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.information_atomic_number{
+    font-size: 0.9rem;
+    padding: 7px;
+    color: lightgray;
+    background: crimson;
+}
+.information_atomic_mass{
+    font-size: 0.9rem;
+    width: 80%;
+    text-align: center;
+}
+.information_table{
+    background: #E6E6E6;
+    width: 90%;
+    padding: 10px;
+    font-weight: 600;
+}
+.info{
+    font-weight: 300;
+}
+.info sup{
+    font-size: 0.5rem;
+}
