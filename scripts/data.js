@@ -6,7 +6,11 @@ const elements =  [
         atomicnumber: 1,
         atomicmass: 1.008,
         ec: "1s<sup>1</sup>",
-        year: "1766 d.C"
+        year: "1766 d.C",
+        type: "Não-metais",
+        state: "Gasoso",
+        family: "1",
+        period: "I"
       },
       {
         id: "element_2",
@@ -15,7 +19,11 @@ const elements =  [
         atomicnumber: 2,
         atomicmass: 4.003,
         ec: "1s<sup>2</sup>",
-        year: "1868 d.C"
+        year: "1868 d.C",
+        type: "Gases nobres",
+        state: "Gasoso",
+        family: "18",
+        period: "I"
     },
    { 
        id: "element_3",
@@ -24,7 +32,11 @@ const elements =  [
        atomicnumber: 3,
        atomicmass: 6.941,
        ec: "1s<sup>2</sup> 2s<sup>1</sup>",
-       year: "1817 d.C"
+       year: "1817 d.C",
+       type: "Metais alcalinos",
+       state: "Sólido",
+       family: "1",
+       period: "II"
    },{
        id: "element_4",
        name: "Berílio",
@@ -32,7 +44,11 @@ const elements =  [
        atomicnumber: 4,
        atomicmass: 9.012,
        ec: "1s<sup>2</sup> 2s<sup>2</sup>",
-       year: "1798 d.C"
+       year: "1798 d.C",
+       type: "Metais alcalino-terrosos",
+       state: "Sólido",
+       family: "2",
+       period: "II"
    },{
        id: "element_5",
        name: "Boro",
@@ -40,7 +56,11 @@ const elements =  [
        atomicnumber: 5,
        atomicmass: 10.811,
        ec: "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>1</sup>",
-       year: "1808 d.C"
+       year: "1808 d.C",
+       type: "Semi-metais",
+       state: "Sólido",
+       family: "13",
+       period: "II"
    },{
        id: "element_6",
        name: "Carbono",
@@ -48,7 +68,11 @@ const elements =  [
        atomicnumber: 6,
        atomicmass: 12.011,
        ec: "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>2</sup>",
-       year: "3750 a.C"
+       year: "3750 a.C",
+       type: "Não-metais",
+       state: "Sólido",
+       family: "14",
+       period: "II"
    },{
        id: "element_7",
        name: "Nitrogênio",
@@ -56,7 +80,11 @@ const elements =  [
        atomicnumber: 7,
        atomicmass: 14.007,
        ec: "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>3</sup>",
-       year: "1772 d.C"
+       year: "1772 d.C",
+       type: "Não-metais",
+       state: "Gasoso",
+       family: "15",
+       period: "II"
    },{
      id: "element_8",
      name: "Oxigênio",
@@ -64,7 +92,11 @@ const elements =  [
      atomicnumber: 8,
      atomicmass: 15.999,
      ec: "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>4</sup>",
-     year: "1771 d.C"
+     year: "1771 d.C",
+     type: "Não-metais",
+     state: "Gasoso",
+     family: "16",
+     period: "II"
    },{
      id: "element_9",
      name: "Flúor",
@@ -72,7 +104,11 @@ const elements =  [
      atomicnumber: 9,
      atomicmass: 18.998,
      ec: "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>5</sup>",
-     year: "1886 d.C"
+     year: "1886 d.C",
+     type: "Halogênios",
+     state: "Gasoso",
+     family: "17",
+     period: "II"
    },{
      id: "element_10",
      name: "Neônio",
@@ -80,7 +116,11 @@ const elements =  [
      atomicnumber: 10,
      atomicmass: 20.18,
      ec: "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup>",
-     year: "1898 d.C"
+     year: "1898 d.C",
+     type: "Gases nobres",
+     state: "Gasoso",
+     family: "18",
+     period: "II"
    },{
      id: "element_11",
      name: "Sódio",
@@ -88,7 +128,11 @@ const elements =  [
      atomicnumber: 11,
      atomicmass: 22.99,
      ec: "[Ne] 3s<sup>1</sup>",
-     year: "1807 d.C"
+     year: "1807 d.C",
+     type: "Metais alcalinos",
+     state: "Sólido",
+     family: "1",
+     period: "III"
    },{
      id: "element_12",
      name: "Magnésio",
@@ -96,7 +140,11 @@ const elements =  [
      atomicnumber: 12,
      atomicmass: 24.305,
      ec: "[Ne] 3s<sup>2</sup>",
-     year: "1755 d.C"
+     year: "1755 d.C",
+     type: "Metais alcalino-terrosos",
+     state: "Sólido",
+     family: "2",
+     period: "III"
    },{
      id: "element_13",
      name: "Alumínio",
@@ -104,7 +152,11 @@ const elements =  [
      atomicnumber: 13,
      atomicmass: 26.982,
      ec: "[Ne] 3s<sup>2</sup> 3p<sup>1</sup>",
-     year: "1825 d.C"
+     year: "1825 d.C",
+     type: "Metais representativos",
+     state: "Sólido",
+     family: "13",
+     period: "III"
    },{
      id: "element_14",
      name: "Silício",
@@ -112,7 +164,11 @@ const elements =  [
      atomicnumber: 14,
      atomicmass: 28.086,
      ec: "[Ne] 3s<sup>2</sup> 3p<sup>2</sup>",
-     year: "1824 d.C"
+     year: "1824 d.C",
+     type: "Semi-metais",
+     state: "Sólido",
+     family: "14",
+     period: "III"
    },{
      id: "element_15",
      name: "Fósforo",
@@ -120,7 +176,11 @@ const elements =  [
      atomicnumber: "15",
      atomicmass: "30.974",
      ec: "[Ne] 3s<sup>2</sup> 3p<sup>3</sup>",
-     year: "1669 d.C"
+     year: "1669 d.C",
+     type: "Não-metais",
+     state: "Sólido",
+     family: "15",
+     period: "III"
    },{
      id: "element_16",
      name: "Enxofre",
@@ -128,7 +188,11 @@ const elements =  [
      atomicnumber: "16",
      atomicmass: "32.065",
      ec: "[Ne] 3s<sup>2</sup> 3p<sup>4</sup>",
-     year: "2000 a.C"
+     year: "2000 a.C",
+     type: "Não-metais",
+     state: "Sólido",
+     family: "16",
+     period: "III"
 
    },{
      id: "element_17",
@@ -137,7 +201,11 @@ const elements =  [
      atomicnumber: "17",
      atomicmass: "35.453",
      ec: "[Ne] 3s<sup>2</sup> 3p<sup>5</sup>",
-     year: "1774 d.C"
+     year: "1774 d.C",
+     type: "Halogênios",
+     state: "Gasoso",
+     family: "17",
+     period: "III"
    },{
      id: "element_18",
      name: "Argônio",
@@ -145,7 +213,11 @@ const elements =  [
      atomicnumber: "18",
      atomicmass: "39.948",
      ec: "[Ne] 3s<sup>2</sup> 3p<sup>6</sup>",
-     year: "1894 d.C"
+     year: "1894 d.C",
+     type: "Gases nobres",
+     state: "Gasoso",
+     family: "18",
+     period: "III"
    },{
      id: "element_19",
      name: "Potássio",
@@ -153,7 +225,11 @@ const elements =  [
      atomicnumber: "19",
      atomicmass: "39.098",
      ec: "[Ar] 4s<sup>1</sup>",
-     year: "1807 d.C"
+     year: "1807 d.C",
+     type: "Metais alcalinos",
+     state: "Sólido",
+     family: "1",
+     period: "IV"
    },{
      id: "element_20",
      name: "Cálcio",
@@ -161,7 +237,11 @@ const elements =  [
      atomicnumber: "20",
      atomicmass: "40.078",
      ec: "[Ar] 4s<sup>2</sup>",
-     year: "1808 d.C"
+     year: "1808 d.C",
+     type: "Metais alcalino-terrosos",
+     state: "Sólido",
+     family: "2",
+     period: "IV"
    },{
      id: "element_21",
      name: "Escândio",
@@ -169,7 +249,11 @@ const elements =  [
      atomicnumber: "21",
      atomicmass: "44.956",
      ec: "[Ar] 3d<sup>1</sup> 4s<sup>2</sup>",
-     year: "1879 d.C"
+     year: "1879 d.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "3",
+     period: "IV"
    },{
      id: "element_22",
      name: "Titânio",
@@ -177,7 +261,11 @@ const elements =  [
      atomicnumber: "22",
      atomicmass: "47.867",
      ec: "[Ar] 3d<sup>2</sup> 4s<sup>2</sup>",
-     year: "1791 d.C"
+     year: "1791 d.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "4",
+     period: "IV"
    },{
      id: "element_23",
      name: "Vanádio",
@@ -185,7 +273,11 @@ const elements =  [
      atomicnumber: "23",
      atomicmass: "50.942",
      ec: "[Ar] 3d<sup>3</sup> 4s<sup>2</sup>",
-     year: "1801 d.C"
+     year: "1801 d.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "5",
+     period: "IV"
     },{
       id: "element_24",
       name: "Cromo",
@@ -193,7 +285,11 @@ const elements =  [
       atomicnumber: "24",
       atomicmass: "51.996",
       ec: "[Ar] 3d<sup>4</sup> 4s<sup>2</sup>",
-      year: "1797 d.C"   
+      year: "1797 d.C"   ,
+      type: "Metais de transição",
+      state: "Sólido",
+      family: "6",
+      period: "IV"
    },{
      id: "element_25",
      name: "Manganês",
@@ -201,7 +297,11 @@ const elements =  [
      atomicnumber: "25",
      atomicmass: "54.938",
      ec: "[Ar] 3d<sup>5</sup> 4s<sup>2</sup>",
-     year: "1770 d.C"
+     year: "1770 d.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "7",
+     period: "IV"
    },{
      id: "element_26",
      name: "Ferro",
@@ -209,7 +309,11 @@ const elements =  [
      atomicnumber: "26",
      atomicmass: "55.845",
      ec: "[Ar] 3d<sup>6</sup> 4s<sup>2</sup>",
-     year: "5000 a.C"
+     year: "5000 a.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "8",
+     period: "IV"
    },{
      id: "element_27",
      name: "Cobalto",
@@ -217,7 +321,11 @@ const elements =  [
      atomicnumber: "27",
      atomicmass: "58.933",
      ec: "[Ar] 3d<sup>7</sup> 4s<sup>2</sup>",
-     year: "1732 d.C"
+     year: "1732 d.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "9",
+     period: "IV"
    },{
      id: "element_28",
      name: "Níquel",
@@ -225,7 +333,11 @@ const elements =  [
      atomicnumber: "28",
      atomicmass: "58.693",
      ec: "[Ar] 3d<sup>8</sup> 4s<sup>2</sup>",
-     year: "1751 d.C"
+     year: "1751 d.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "10",
+     period: "IV"
    },{
      id: "element_29",
      name: "Cobre",
@@ -233,7 +345,11 @@ const elements =  [
      atomicnumber: "29",
      atomicmass: "63.546",
      ec: "[Ar] 3d<sup>9</sup> 4s<sup>2</sup>",
-     year: "9000 a.C"
+     year: "9000 a.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "11",
+     period: "IV"
    },{
      id: "element_30",
      name: "Zinco",
@@ -241,7 +357,11 @@ const elements =  [
      atomicnumber: "30",
      atomicmass: "65.409",
      ec: "[Ar] 3d<sup>10</sup> 4s<sup>2</sup>",
-     year: "1000 a.C"
+     year: "1000 a.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "12",
+     period: "IV"
    },{
      id: "element_31",
      name: "Gálio",
@@ -249,7 +369,11 @@ const elements =  [
      atomicnumber: "31",
      atomicmass: "69.723",
      ec: "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>1</sup>",
-     year: "1875 d.C"
+     year: "1875 d.C",
+     type: "Metais representativos",
+     state: "Sólido",
+     family: "13",
+     period: "IV"
    },{
      id: "element_32",
      name: "Germânio",
@@ -257,7 +381,11 @@ const elements =  [
      atomicnumber: "32",
      atomicmass: "72.64",
      ec: "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>2</sup>",
-     year: "1886 d.C"
+     year: "1886 d.C",
+     type: "Semi-metais",
+     state: "Sólido",
+     family: "14",
+     period: "IV"
    },{
      id: "element_33",
      name: "Arsênio",
@@ -265,7 +393,11 @@ const elements =  [
      atomicnumber: "33",
      atomicmass: "74.922",
      ec: "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>3</sup>",
-     year: "2500 a.C"
+     year: "2500 a.C",
+     type: "Semi-metais",
+     state: "Sólido",
+     family: "15",
+     period: "IV"
    },{
      id: "element_34",
      name: "Selênio",
@@ -273,7 +405,11 @@ const elements =  [
      atomicnumber: "34",
      atomicmass: "78.96",
      ec: "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup>",
-     year: "1817 d.C"
+     year: "1817 d.C",
+     type: "Não-metais",
+     state: "Sólido",
+     family: "16",
+     period: "IV"
    },{
      id: "element_35",
      name: "Bromo",
@@ -281,7 +417,11 @@ const elements =  [
      atomicnumber: "35",
      atomicmass: "79.904",
      ec: "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>5</sup>",
-     year: "1825 d.C"
+     year: "1825 d.C",
+     type: "Halogênios",
+     state: "Líquido",
+     family: "17",
+     period: "IV"
    },{
      id: "element_36",
      name: "Criptônio",
@@ -289,7 +429,11 @@ const elements =  [
      atomicnumber: "36",
      atomicmass: "83.798",
      ec: "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup>",
-     year: "1898 d.C"
+     year: "1898 d.C",
+     type: "Gases nobres",
+     state: "Gasoso",
+     family: "18",
+     period: "IV"
    },{
      id: "element_37",
      name: "Rubídio",
@@ -297,7 +441,11 @@ const elements =  [
      atomicnumber: "37",
      atomicmass: "85.468",
      ec: "[Kr] 5s<sup>1</sup>",
-     year: "1861 d.C"
+     year: "1861 d.C",
+     type: "Metais alcalinos",
+     state: "Sólido",
+     family: "1",
+     period: "V"
    },{
      id: "element_38",
      name: "Estrôncio",
@@ -305,7 +453,11 @@ const elements =  [
      atomicnumber: "38",
      atomicmass: "87.62",
      ec: "[Kr] 5s<sup>2</sup>",
-     year: "1787 d.C"
+     year: "1787 d.C",
+     type: "Metais alcalino-terrosos",
+     state: "Sólido",
+     family: "2",
+     period: "V"
    },{
      id: "element_39",
      name: "Ítrio",
@@ -313,7 +465,11 @@ const elements =  [
      atomicnumber: "39",
      atomicmass: "88.906",
      ec: "[Kr] 4d<sup>1</sup> 5s<sup>2</sup>",
-     year: "1794 d.C"
+     year: "1794 d.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "3",
+     period: "V"
    },{
      id: "element_40",
      name: "Zircônio",
@@ -321,7 +477,11 @@ const elements =  [
      atomicnumber: "40",
      atomicmass: "91.224",
      ec: "[Kr] 4d<sup>2</sup> 5s<sup>2</sup>",
-     year: "1789 d.C"
+     year: "1789 d.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "4",
+     period: "V"
    },{
      id: "element_41",
      name: "Nióbio",
@@ -329,7 +489,11 @@ const elements =  [
      atomicnumber: "41",
      atomicmass: "92.906 38",
      ec: "[Kr] 4d<sup>3</sup> 5s<sup>2</sup>",
-     year: "1801 d.C"
+     year: "1801 d.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "5",
+     period: "V"
    },{
      id: "element_42",
      name: "Molibdênio",
@@ -337,7 +501,11 @@ const elements =  [
      atomicnumber: "42",
      atomicmass: "95.94",
      ec: "[Kr] 4d<sup>4</sup> 5s<sup>2</sup>",
-     year: "1778 d.C"
+     year: "1778 d.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "6",
+     period: "V"
    },{
      id: "element_43",
      name: "Tecnécio",
@@ -345,7 +513,11 @@ const elements =  [
      atomicnumber: "43",
      atomicmass: "[98]",
      ec: "[Kr] 4d<sup>5</sup> 5s<sup>2</sup>",
-     year: "1937 d.C"
+     year: "1937 d.C",
+     type: "Metais de transição",
+     state: "Artificial",
+     family: "7",
+     period: "V"
    },{
      id: "element_44",
      name: "Rutênio",
@@ -353,7 +525,11 @@ const elements =  [
      atomicnumber: "44",
      atomicmass: "101.07",
      ec: "[Kr] 4d<sup>6</sup> 5s<sup>2</sup>",
-     year: "1807 d.C"
+     year: "1807 d.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "8",
+     period: "V"
    },{
      id: "element_45",
      name: "Ródio",
@@ -361,7 +537,11 @@ const elements =  [
      atomicnumber: "45",
      atomicmass: "102.905 50",
      ec: "[Kr] 4d<sup>7</sup> 5s<sup>2</sup>",
-     year: "1804 d.C"
+     year: "1804 d.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "9",
+     period: "V"
    },{
       id: "element_46",
       name: "Paládio",
@@ -369,7 +549,11 @@ const elements =  [
       atomicnumber: "46",
       atomicmass: "106.42",
       ec: "[Kr] 4d<sup>8</sup> 5s<sup>2</sup>",
-      year: "1803 d.C"
+      year: "1803 d.C",
+      type: "Metais de transição",
+      state: "Sólido",
+      family: "10",
+      period: "V"
    },{
      id: "element_47",
      name: "Prata",
@@ -377,7 +561,11 @@ const elements =  [
      atomicnumber: "47",
      atomicmass: "107.868",
      ec: "[Kr] 4d<sup>9</sup> 5s<sup>2</sup>",
-     year: "5000 a.C"
+     year: "5000 a.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "11",
+     period: "V"
    },{
      id: "element_48",
      name: "Cádmio",
@@ -385,7 +573,11 @@ const elements =  [
      atomicnumber: "48",
      atomicmass: "112.411",
      ec: "[Kr] 4d<sup>10</sup> 5s<sup>2</sup>",
-     year: "1817 d.C"
+     year: "1817 d.C",
+     type: "Metais de transição",
+     state: "Sólido",
+     family: "12",
+     period: "V"
    },{
      id: "element_49",
      name: "Índio",
@@ -393,7 +585,11 @@ const elements =  [
      atomicnumber: "49",
      atomicmass: "114.818",
      ec: "[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>1</sup>",
-     year: "1863 d.C"
+     year: "1863 d.C",
+     type: "Metais representativos",
+     state: "Sólido",
+     family: "13",
+     period: "V"
     },{
       id: "element_50",
       name: "Estanho",
@@ -401,7 +597,11 @@ const elements =  [
      atomicnumber: "50",
      atomicmass: "118.71",
      ec: "[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>2</sup>",
-     year: "3500 a.C"
+     year: "3500 a.C",
+     type: "Metais representativos",
+     state: "Sólido",
+     family: "14",
+     period: "V"
     },{
       id: "element_51",
       name: "Antimônio",
@@ -409,7 +609,11 @@ const elements =  [
       atomicnumber: "51",
       atomicmass: "121.76",
       ec: "[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>3</sup>",
-      year: "3000 a.C"
+      year: "3000 a.C",
+      type: "Semi-metais",
+      state: "Sólido",
+      family: "15",
+      period: "V"
     },{
       id: "element_52",
       name: "Telúrio",
@@ -417,7 +621,11 @@ const elements =  [
       atomicnumber: "52",
       atomicmass: "128.6",
       ec: "[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>4</sup>",
-      year: "1782 d.C"
+      year: "1782 d.C",
+      type: "Semi-metais",
+      state: "Sólido",
+      family: "16",
+      period: "V"
     },{
       id: "element_53",
       name: "Iodo",
@@ -425,7 +633,11 @@ const elements =  [
       atomicnumber: "53",
       atomicmass: "126.904 47",
       ec: "[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>5</sup>",
-      year: "1811 d.C"
+      year: "1811 d.C",
+      type: "Halogênios",
+      state: "Sólido",
+      family: "17",
+      period: "V"
     },{
       id: "element_54",
       name: "Xenônio",
@@ -433,7 +645,11 @@ const elements =  [
       atomicnumber: "54",
       atomicmass: "131.293",
       ec: "[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>6</sup>",
-      year: "1898 d.C"
+      year: "1898 d.C",
+      type: "Gases nobres",
+      state: "Gasoso",
+      family: "18",
+      period: "V"
     },{
       id: "element_55",
       name: "Césio",
@@ -441,7 +657,11 @@ const elements =  [
       atomicnumber: "55",
       atomicmass: "132.905",
       ec: "[Xe] 6s<sup>1</sup>",
-      year: "1860 d.C"
+      year: "1860 d.C",
+      type: "Metais alcalinos",
+      state: "Sólido",
+      family: "1",
+      period: "VI"
     },{
       id: "element_56",
       name: "Bário",
@@ -449,7 +669,11 @@ const elements =  [
       atomicnumber: "56",
       atomicmass: "137.327",
       ec: "[Xe] 6s<sup>2</sup>",
-      year: "1772 d.C"
+      year: "1772 d.C",
+      type: "Metais alcalino-terrosos",
+      state: "Sólido",
+      family: "2",
+      period: "VI"
     },{
       id: "element_57",
       name: "Lantânio",
@@ -457,7 +681,11 @@ const elements =  [
       atomicnumber: "57",
       atomicmass: "138.905",
       ec: "[Xe] 4f<sup>1</sup> 6s<sup>2</sup>",
-      year: "1838 d.C"
+      year: "1838 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{
       id: "element_58",
       name: "Cério",
@@ -465,7 +693,11 @@ const elements =  [
       atomicnumber: "58",
       atomicmass: "140.116",
       ec: "[Xe] 4f<sup>2</sup> 6s<sup>2</sup>",
-      year: "1803 d.C"
+      year: "1803 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{
       id: "element_59",
       name: "Praseodímio",
@@ -473,7 +705,11 @@ const elements =  [
       atomicnumber: "59",
       atomicmass: "140.908",
       ec: "[Xe] 4f<sup>3</sup> 6s<sup>2</sup>",
-      year: "1885 d.C"
+      year: "1885 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{
       id: "element_60",
       name: "Neodímio",
@@ -481,7 +717,11 @@ const elements =  [
       atomicnumber: "60",
       atomicmass: "144.242",
       ec: "[Xe] 4f<sup>4</sup> 6s<sup>2</sup>",
-      year: "1885 d.C"
+      year: "1885 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{
       id: "element_61",
       name: "Promécio",
@@ -489,7 +729,11 @@ const elements =  [
       atomicnumber: "61",
       atomicmass: "[145]",
       ec: "[Xe] 4f<sup>5</sup> 6s<sup>2</sup>",
-      year: "1942 d.C"
+      year: "1942 d.C",
+      type: "Lantanídeos",
+      state: "Artificial",
+      family: "3",
+      period: "VI"
     },{
       id: "element_62",
       name: "Samário",
@@ -497,7 +741,11 @@ const elements =  [
       atomicnumber: "62",
       atomicmass: "150.36",
       ec: "[Xe] 4f<sup>6</sup> 6s<sup>2</sup>",
-      year: "1879 d.C"
+      year: "1879 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{
       id: "element_63",
       name: "Európio",
@@ -505,7 +753,11 @@ const elements =  [
       atomicnumber: "63",
       atomicmass: "151.964",
       ec: "[Xe] 4f<sup>7</sup> 6s<sup>2</sup>",
-      year: "1896 d.C"
+      year: "1896 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{ 
       id: "element_64",
       name: "Gadolínio",
@@ -513,7 +765,11 @@ const elements =  [
       atomicnumber: "64",
       atomicmass: "157.25",
       ec: "[Xe] 4f<sup>8</sup> 6s<sup>2</sup>",
-      year: "1880 d.C"
+      year: "1880 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{
       id: "element_65",
       name: "Térbio",
@@ -521,7 +777,11 @@ const elements =  [
       atomicnumber: "65",
       atomicmass: "158.925",
       ec: "[Xe] 4f<sup>9</sup> 6s<sup>2</sup>",
-      year: "1842 d.C"
+      year: "1842 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{
       id: "element_66",
       name: "Disprósio",
@@ -529,7 +789,11 @@ const elements =  [
       atomicnumber: "66",
       atomicmass: "162.5",
       ec: "[Xe] 4f<sup>10</sup> 6s<sup>2</sup>",
-      year: "1886 d.C"
+      year: "1886 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{
       id: "element_67",
       name: "Hólmio",
@@ -537,7 +801,11 @@ const elements =  [
       atomicnumber: "67",
       atomicmass: "164.930 32",
       ec: "[Xe] 4f<sup>11</sup> 6s<sup>2</sup>",
-      year: "1878 d.C"
+      year: "1878 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{
       id: "element_68",
       name: "Érbio",
@@ -545,7 +813,11 @@ const elements =  [
       atomicnumber: "68",
       atomicmass: "167.259",
       ec: "[Xe] 4f<sup>12</sup> 6s<sup>2</sup>",
-      year: "1842 d.C"
+      year: "1842 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{
       id: "element_69",
       name: "Túlio",
@@ -553,7 +825,11 @@ const elements =  [
       atomicnumber: "69",
       atomicmass: "168.934",
       ec: "[Xe] 4f<sup>13</sup> 6s<sup>2</sup>",
-      year: "1879 d.C"
+      year: "1879 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{
       id: "element_70",
       name: "Itérbio",
@@ -561,7 +837,11 @@ const elements =  [
       atomicnumber: "70",
       atomicmass: "173.04",
       ec: "[Xe] 4f<sup>14</sup> 6s<sup>2</sup>",
-      year: "1878 d.C"
+      year: "1878 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{
       id: "element_71",
       name: "Lutécio",
@@ -569,7 +849,11 @@ const elements =  [
       atomicnumber: "71",
       atomicmass: "174.967",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>1</sup> 6s<sup>2</sup>",
-      year: "1906 d.C"
+      year: "1906 d.C",
+      type: "Lantanídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VI"
     },{
       id: "element_72",
       name: "Háfnio",
@@ -577,7 +861,11 @@ const elements =  [
       atomicnumber: "72",
       atomicmass: "178.49",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>2</sup> 6s<sup>2</sup>",
-      year: "1911 d.C"
+      year: "1911 d.C",
+      type: "Metais de transição",
+      state: "Sólido",
+      family: "4",
+      period: "VI"
     },{
       id: "element_73",
       name: "Tântalo",
@@ -585,7 +873,11 @@ const elements =  [
       atomicnumber: "73",
       atomicmass: "180.948",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>3</sup> 6s<sup>2</sup>",
-      year: "1802 d.C"
+      year: "1802 d.C",
+      type: "Metais de transição",
+      state: "Sólido",
+      family: "5",
+      period: "VI"
     },{
       id: "element_74",
       name: "Tungstênio",
@@ -593,7 +885,11 @@ const elements =  [
       atomicnumber: "74",
       atomicmass: "183.84",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>4</sup> 6s<sup>2</sup>",
-      year: "1781 d.C"
+      year: "1781 d.C",
+      type: "Metais de transição",
+      state: "Sólido",
+      family: "6",
+      period: "VI"
     },{
       id: "element_75",
       name: "Rênio",
@@ -601,7 +897,11 @@ const elements =  [
       atomicnumber: "75",
       atomicmass: "186.207",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>5</sup> 6s<sup>2</sup>",
-      year: "1908 d.C"
+      year: "1908 d.C",
+      type: "Metais de transição",
+      state: "Sólido",
+      family: "7",
+      period: "VI"
     },{
       id: "element_76",
       name: "Ósmio",
@@ -609,7 +909,11 @@ const elements =  [
       atomicnumber: "76",
       atomicmass: "190.23",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>6</sup> 6s<sup>2</sup>",
-      year: "1803 d.C"
+      year: "1803 d.C",
+      type: "Metais de transição",
+      state: "Sólido",
+      family: "8",
+      period: "VI"
     },{
       id: "element_77",
       name: "Irídio",
@@ -617,7 +921,11 @@ const elements =  [
       atomicnumber: "77",
       atomicmass: "192.217",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>7</sup> 6s<sup>2</sup>",
-      year: "1803 d.C"
+      year: "1803 d.C",
+      type: "Metais de transição",
+      state: "Sólido",
+      family: "9",
+      period: "VI"
     },{
       id: "element_78",
       name: "Platina",
@@ -625,7 +933,11 @@ const elements =  [
       atomicnumber: "78",
       atomicmass: "195.084",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>8</sup> 6s<sup>2</sup>",
-      year: "1735 d.C"
+      year: "1735 d.C",
+      type: "Metais de transição",
+      state: "Sólido",
+      family: "10",
+      period: "VI"
     },{
       id: "element_79",
       name: "Ouro",
@@ -633,7 +945,11 @@ const elements =  [
       atomicnumber: "79",
       atomicmass: "196.967",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>9</sup> 6s<sup>1</sup>",
-      year: "6000 a.C"
+      year: "6000 a.C",
+      type: "Metais de transição",
+      state: "Sólido",
+      family: "11",
+      period: "VI"
     },{
       id: "element_80",
       name: "Mercúrio",
@@ -641,7 +957,11 @@ const elements =  [
       atomicnumber: "80",
       atomicmass: "200.59",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup>",
-      year: "2000 a.C"
+      year: "2000 a.C",
+      type: "Metais de transição",
+      state: "Líquido",
+      family: "12",
+      period: "VI"
     },{
       id: "element_81",
       name: "Tálio",
@@ -649,7 +969,11 @@ const elements =  [
       atomicnumber: "81",
       atomicmass: "204.383",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>1</sup>",
-      year: "1861 d.C"
+      year: "1861 d.C",
+      type: "Metais representativos",
+      state: "Sólido",
+      family: "13",
+      period: "VI"
     },{
       id: "element_82",
       name: "Chumbo",
@@ -657,7 +981,11 @@ const elements =  [
       atomicnumber: "82",
       atomicmass: "207.2",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>2</sup>",
-      year: "7000 a.C"
+      year: "7000 a.C",
+      type: "Metais representativos",
+      state: "Sólido",
+      family: "14",
+      period: "VI"
     },{
       id: "element_83",
       name: "Bismuto",
@@ -665,7 +993,11 @@ const elements =  [
       atomicnumber: "83",
       atomicmass: "208.98",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>3</sup>",
-      year: "1753 d.C"
+      year: "1753 d.C",
+      type: "Metais representativos",
+      state: "Sólido",
+      family: "15",
+      period: "VI"
     },{
       id: "element_84",
       name: "Polônio",
@@ -673,15 +1005,23 @@ const elements =  [
       atomicnumber: "84",
       atomicmass: "[210]",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>4</sup>",
-      year: "1898 d.C"
+      year: "1898 d.C",
+      type: "Semi-metais",
+      state: "Sólido",
+      family: "16",
+      period: "VI"
     },{
       id: "element_85",
-      name: "Ástato",
+      name: "Astato",
       symbol: "At",
       atomicnumber: "85",
       atomicmass: "[210]",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>5</sup>",
-      year: "1940 d.C"
+      year: "1940 d.C",
+      type: "Halogênios",
+      state: "Sólido",
+      family: "17",
+      period: "VI"
     },{
       id: "element_86",
       name: "Radônio",
@@ -689,7 +1029,11 @@ const elements =  [
       atomicnumber: "86",
       atomicmass: "[220]",
       ec: "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>6</sup>",
-      year: "1898 d.C"
+      year: "1898 d.C",
+      type: "Gases nobres",
+      state: "Gasoso",
+      family: "18",
+      period: "VI"
     },{
       id: "element_87",
       name: "Frâncio",
@@ -697,7 +1041,11 @@ const elements =  [
       atomicnumber: "87",
       atomicmass: "[223]",
       ec: "[Rn] 7s<sup>1</sup>",
-      year: "1939 d.C"
+      year: "1939 d.C",
+      type: "Metais alcalinos",
+      state: "Sólido",
+      family: "1",
+      period: "VII"
     },{
       id: "element_88",
       name: "Rádio",
@@ -705,7 +1053,11 @@ const elements =  [
       atomicnumber: "88",
       atomicmass: "[226]",
       ec: "[Rn] 7s<sup>2</sup>",
-      year: "1898 d.C"
+      year: "1898 d.C",
+      type: "Metais alcalino-terrosos",
+      state: "Sólido",
+      family: "2",
+      period: "VII"
     },{
       id: "element_89",
       name: "Actínio",
@@ -713,7 +1065,11 @@ const elements =  [
       atomicnumber: "89",
       atomicmass: "[227]",
       ec: "[Rn] 5f<sup>1</sup> 7s<sup>2</sup>",
-      year: "1899 d.C"
+      year: "1899 d.C",
+      type: "Actinídeos",
+      state: "Artificial",
+      family: "3",
+      period: "VII"
     },{
       id: "element_90",
       name: "Tório",
@@ -721,7 +1077,11 @@ const elements =  [
       atomicnumber: "90",
       atomicmass: "232.03806",
       ec: "[Rn] 5f<sup>2</sup> 7s<sup>2</sup>",
-      year: "1829 d.C"
+      year: "1829 d.C",
+      type: "Actinídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VII"
     },{
       id: "element_91",
       name: "Protactínio",
@@ -729,7 +1089,11 @@ const elements =  [
       atomicnumber: "91",
       atomicmass: "231.03588",
       ec: "[Rn] 5f<sup>3</sup> 7s<sup>2</sup>",
-      year: "1913 d.C"
+      year: "1913 d.C",
+      type: "Actinídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VII"
     },{
       id: "element_92",
       name: "Urânio",
@@ -737,7 +1101,11 @@ const elements =  [
       atomicnumber: "92",
       atomicmass: "238.02891",
       ec: "[Rn] 5f<sup>4</sup> 7s<sup>2</sup>",
-      year: "1789 d.C"
+      year: "1789 d.C",
+      type: "Actinídeos",
+      state: "Sólido",
+      family: "3",
+      period: "VII"
     },{
       id: "element_93",
       name: "Netúnio",
@@ -745,7 +1113,11 @@ const elements =  [
       atomicnumber: "93",
       atomicmass: "[237]",
       ec: "[Rn] 5f<sup>5</sup> 7s<sup>2</sup>",
-      year: "1940 d.C"
+      year: "1940 d.C",
+      type: "Actinídeos",
+      state: "Artificial",
+      family: "3",
+      period: "VII"
     },{
       id: "element_94",
       name: "Plutônio",
@@ -753,7 +1125,11 @@ const elements =  [
       atomicnumber: "94",
       atomicmass: "[244]",
       ec: "[Rn] 5f<sup>6</sup> 7s<sup>2</sup>",
-      year: "1940 d.C"
+      year: "1940 d.C",
+      type: "Actinídeos",
+      state: "Artificial",
+      family: "3",
+      period: "VII"
     },{
       id: "element_95",
       name: "Amerício",
@@ -761,7 +1137,11 @@ const elements =  [
       atomicnumber: "95",
       atomicmass: "[243]",
       ec: "[Rn] 5f<sup>7</sup> 7s<sup>2</sup>",
-      year: "1944 d.C"
+      year: "1944 d.C",
+      type: "Actinídeos",
+      state: "Artificial",
+      family: "3",
+      period: "VII"
     },{
       id: "element_96",
       name: "Cúrio",
@@ -769,7 +1149,11 @@ const elements =  [
       atomicnumber: "96",
       atomicmass: "[247]",
       ec: "[Rn] 5f<sup>8</sup> 7s<sup>2</sup>",
-      year: "1944 d.C"
+      year: "1944 d.C",
+      type: "Actinídeos",
+      state: "Artificial",
+      family: "3",
+      period: "VII"
     },{
       id: "element_97",
       name: "Berquélio",
@@ -777,7 +1161,11 @@ const elements =  [
       atomicnumber: "97",
       atomicmass: "[247]",
       ec: "[Rn] 5f<sup>9</sup> 7s<sup>2</sup>",
-      year: "1949 d.C"
+      year: "1949 d.C",
+      type: "Actinídeos",
+      state: "Artificial",
+      family: "3",
+      period: "VII"
     },{
       id: "element_98",
       name: "Califórnio",
@@ -785,7 +1173,11 @@ const elements =  [
       atomicnumber: "98",
       atomicmass: "[251]",
       ec: "[Rn] 5f<sup>10</sup> 7s<sup>2</sup>",
-      year: "1950 d.C"
+      year: "1950 d.C",
+      type: "Actinídeos",
+      state: "Artificial",
+      family: "3",
+      period: "VII"
     },{
       id: "element_99",
       name: "Einsténio",
@@ -793,7 +1185,11 @@ const elements =  [
       atomicnumber: "99",
       atomicmass: "[252]",
       ec: "[Rn] 5f<sup>11</sup> 7s<sup>2</sup>",
-      year: "1952 d.C"
+      year: "1952 d.C",
+      type: "Actinídeos",
+      state: "Artificial",
+      family: "3",
+      period: "VII"
     },{
       id: "element_100",
       name: "Férmio",
@@ -801,7 +1197,11 @@ const elements =  [
       atomicnumber: "100",
       atomicmass: "[257]",
       ec: "[Rn] 5f<sup>12</sup> 7s<sup>2</sup>",
-      year: "1952 d.C"
+      year: "1952 d.C",
+      type: "Actinídeos",
+      state: "Artificial",
+      family: "3",
+      period: "VII"
     },{
       id: "element_101",
       name: "Mendelévio",
@@ -809,7 +1209,11 @@ const elements =  [
       atomicnumber: "101",
       atomicmass: "[258]",
       ec: "[Rn] 5f<sup>13</sup> 7s<sup>2</sup>",
-      year: "1955 d.C"
+      year: "1955 d.C",
+      type: "Actinídeos",
+      state: "Artificial",
+      family: "3",
+      period: "VII"
     },{
       id: "element_102",
       name: "Nobélio",
@@ -817,7 +1221,11 @@ const elements =  [
       atomicnumber: "102",
       atomicmass: "[259]",
       ec: "[Rn] 5f<sup>14</sup> 7s<sup>2</sup>",
-      year: "1958 d.C"
+      year: "1958 d.C",
+      type: "Actinídeos",
+      state: "Artificial",
+      family: "3",
+      period: "VII"
     },{
       id: "element_103",
       name: "Laurêncio",
@@ -825,7 +1233,11 @@ const elements =  [
       atomicnumber: "103",
       atomicmass: "[262]",
       ec: "[Rn] 5f<sup>14</sup> 6d<sup>1</sup> 7s<sup>2</sup>",
-      year: "1961 d.C"
+      year: "1961 d.C",
+      type: "Actinídeos",
+      state: "Artificial",
+      family: "3",
+      period: "VII"
     },{
     id: "element_104",
     name: "Rutherfórdio",
@@ -833,7 +1245,11 @@ const elements =  [
     atomicnumber: "104",
     atomicmass: "261",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>2</sup> 7s<sup>2</sup>",
-    year: "1968 d.C"
+    year: "1968 d.C",
+    type: "Metais de transição",
+    state: "Artificial",
+    family: "4",
+    period: "VII"
   },{
     id: "element_105",
     name: "Dúbnio",
@@ -841,7 +1257,11 @@ const elements =  [
     atomicnumber: "105",
     atomicmass: "[262]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>3</sup> 7s<sup>2</sup>",
-    year: "1970 d.C"
+    year: "1970 d.C",
+    type: "Metais de transição",
+    state: "Artificial",
+    family: "5",
+    period: "VII"
   },{
     id: "element_106",
     name: "Seabórgio",
@@ -849,7 +1269,11 @@ const elements =  [
     atomicnumber: "106",
     atomicmass: "[266]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>4</sup> 7s<sup>2</sup>",
-    year: "1974 d.C"
+    year: "1974 d.C",
+    type: "Metais de transição",
+    state: "Artificial",
+    family: "6",
+    period: "VII"
   },{
     id: "element_107",
     name: "Bóhrio",
@@ -857,7 +1281,11 @@ const elements =  [
     atomicnumber: "107",
     atomicmass: "[264]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>5</sup> 7s<sup>2</sup>",
-    year: "1981 d.C"
+    year: "1981 d.C",
+    type: "Metais de transição",
+    state: "Artificial",
+    family: "7",
+    period: "VII"
   },{
     id: "element_108",
     name: "Hássio",
@@ -865,7 +1293,11 @@ const elements =  [
     atomicnumber: "108",
     atomicmass: "[277]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>6</sup> 7s<sup>2</sup>",
-    year: "1984 d.C"
+    year: "1984 d.C",
+    type: "Metais de transição",
+    state: "Artificial",
+    family: "8",
+    period: "VII"
   },{
     id: "element_109",
     name: "Meitnério",
@@ -873,7 +1305,11 @@ const elements =  [
     atomicnumber: "109",
     atomicmass: "[268]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>7</sup> 7s<sup>2</sup>",
-    year: "1982 d.C"
+    year: "1982 d.C",
+    type: "Metais de transição",
+    state: "Artificial",
+    family: "9",
+    period: "VII"
   },{
     id: "element_110",
     name: "Darmstádio",
@@ -881,7 +1317,11 @@ const elements =  [
     atomicnumber: "110",
     atomicmass: "[271]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>8</sup> 7s<sup>2</sup>",
-    year: "1994 d.C"
+    year: "1994 d.C",
+    type: "Metais de transição",
+    state: "Artificial",
+    family: "10",
+    period: "VII"
   },{
     id: "element_111",
     name: "Roentgênio",
@@ -889,7 +1329,11 @@ const elements =  [
     atomicnumber: "111",
     atomicmass: "[272]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>9</sup> 7s<sup>2</sup>",
-    year: "1994 d.C"
+    year: "1994 d.C",
+    type: "Metais de transição",
+    state: "Artificial",
+    family: "11",
+    period: "VII"
   },{
     id: "element_112",
     name: "Copernício",
@@ -897,7 +1341,11 @@ const elements =  [
     atomicnumber: "112",
     atomicmass: "[277]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>10</sup> 7s<sup>2</sup>",
-    year: "1996 d.C"
+    year: "1996 d.C",
+    type: "Metais de transição",
+    state: "Artificial",
+    family: "12",
+    period: "VII"
   },{
     id: "element_113",
     name: "Nihônio",
@@ -905,7 +1353,11 @@ const elements =  [
     atomicnumber: "113",
     atomicmass: "[286]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>1</sup> 7s<sup>2</sup> 7p<sup>1</sup>",
-    year: "2003 d.C"
+    year: "2003 d.C",
+    type: "Metais representativos",
+    state: "Artificial",
+    family: "13",
+    period: "VII"
   },{
     id: "element_114",
     name: "Fleróvio",
@@ -913,7 +1365,11 @@ const elements =  [
     atomicnumber: "114",
     atomicmass: "[289]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>1</sup> 7s<sup>2</sup> 7p<sup>2</sup>",
-    year: "1999 d.C"
+    year: "1999 d.C",
+    type: "Metais representativos",
+    state: "Artificial",
+    family: "14",
+    period: "VII"
   },{
     id: "element_115",
     name: "Moscóvio",
@@ -921,7 +1377,11 @@ const elements =  [
     atomicnumber: "115",
     atomicmass: "[288]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>1</sup> 7s<sup>2</sup> 7p<sup>3</sup>",
-    year: "2003 d.C"
+    year: "2003 d.C",
+    type: "Metais representativos",
+    state: "Artificial",
+    family: "15",
+    period: "VII"
   },{
     id: "element_116",
     name: "Livermório",
@@ -929,7 +1389,11 @@ const elements =  [
     atomicnumber: "116",
     atomicmass: "[293]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>1</sup> 7s<sup>2</sup> 7p<sup>4</sup>",
-    year: "2000 d.C"
+    year: "2000 d.C",
+    type: "Metais representativos",
+    state: "Artificial",
+    family: "16",
+    period: "VII"
   },{
     id: "element_117",
     name: "Tenessino",
@@ -937,7 +1401,11 @@ const elements =  [
     atomicnumber: "117",
     atomicmass: "[294]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>1</sup> 7s<sup>2</sup> 7p<sup>5</sup>",
-    year: "2010 d.C"
+    year: "2010 d.C",
+    type: "Halogênios",
+    state: "Artificial",
+    family: "17",
+    period: "VII"
   },{
     id: "element_118",
     name: "Oganessônio",
@@ -945,6 +1413,10 @@ const elements =  [
     atomicnumber: "118",
     atomicmass: "[294]",
     ec: "[Rn] 5f<sup>14</sup> 6d<sup>1</sup> 7s<sup>2</sup> 7p<sup>6</sup>",
-    year: "2002 d.C"
+    year: "2002 d.C",
+    type: "Gases nobres",
+    state: "Artificial",
+    family: "18",
+    period: "VII"
   }
 ]
