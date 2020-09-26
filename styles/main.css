@@ -1,70 +1,140 @@
+/*  cores -> não metais,  gases nobres, metais alcalinos, metais alcalino terrosos, semi-metais, halogênios, metais representativos, metais de transição,lantanideos,actinideos */
+:root{
+    --nao-metais-elemento: #A1D344; /* #A1D344 */ 
+    --nao-metais-titulo: #3C5113; 
+    --nao-metais-numero-atomico:#96CD30;
+    --gases-nobres-elemento: #3D9EE3; /* #3D9EE3 */
+    --gases-nobres-titulo: #0E3E60;
+    --gases-nobres-numero-atomico: #2793E0;
+    --metais-alcalinos-elemento:#F1B200; /* #F1B200 */
+    --metais-alcalinos-titulo:#3F2E00;
+    --metais-alcalinos-numero-atomico:#D89F00;
+    --metais-alcalinos-terrosos-elemento:#EADA00; /* #EADA00 */
+    --metais-alcalinos-terrosos-titulo:#383400;
+    --metais-alcalinos-terrosos-numero-atomico:#9E9300;
+    --semi-metais-elemento: #4DB6AC; /* #4DB6AC */
+    --semi-metais-titulo:#173936;
+    --semi-metais-numero-atomico:#35817A;
+    --halogenios-elemento:#70CBEB; /* #70CBEB */
+    --halogenios-titulo:#219DA6;
+    --halogenios-numero-atomico:#3D9EE3;
+    --metais-de-transicao-elemento:#EB8E8E; /* #EB8E8E */
+    --metais-de-transicao-titulo:#A91E1E;
+    --metais-de-transicao-numero-atomico:#E77878;
+    --metais-representativos-elemento:#A2C7D3; /* #A2C7D3 */
+    --metais-representativos-titulo:#1E5568;
+    --metais-representativos-numero-atomico:#91BDCB;
+    --lantanideos-elemento:#90E3E9; /* #90E3E9 */
+    --lantanideos-titulo:#219DA6;
+    --lantanideos-numero-atomico:#7DBEE5;
+    --actinideos-elemento:#D49BCD; /* #D49BCD */
+    --actinideos-titulo:#96408B;
+    --actinideos-numero-atomico:#DCADD6;
+}
+
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "OpenSans",sans-serif;
     font-size: 14px;
+    box-sizing: border-box;
 }
-body{ 
+
+.root1{
     width: 900px;
-    margin: 0 auto;
+    margin: 0;
+    background: #fefefe;
+}
+.caption{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: -140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cor{
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.descricao{
+    font-size: 14px;
+    width: 180px;
 }
 
 .tabela{
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    z-index: -1;  
 }
 .group_element{
-    position: relative;
-    height: 200px;
-    width: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    height: 225px !important;
+    width: 521px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     text-align: justify;
-    margin: 15px auto;
+    z-index: 1;
 }
 .group_header_default, .mid_group_default{
     text-align: justify;
     padding: 10px;
+    width: 521px;
 }
 .group_header_default{
     font-size: 1.8rem;
-    background: #E6E6E6;
+    background: #e6e6e6;
+    color: #404040 ;
     border: 1px solid #e7e7e7;
     position: absolute;
     top: 0;
     left: 0;
-    height: 30px;
-    width: 100vh;
+    height: 100px;
+    width: 521px;
 }
 .mid_group_default{
-    font-size: 1.2rem;
+    font-size: 14px;
     background: #fefefe;
-    padding: 0;
-    margin-top: 10px;
-    height: 120px;
+    color: #404040;
+    height: 125px;
+    width: 521px;
     position: absolute;
-    bottom: 0;
+    top: 50px;
     left: 0;
-    width: 100%;
-    padding: 10px;
+    padding: 6px 11px 11px 11px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
 }
+#group_details{
+    padding: 0;
+}
+#texto{
+    margin: 10px;
+    line-height: 25px;
+}
+
 #selected{
     color: white;
-    background: tomato;
 }
 .element{
-    width: 50px;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 4px;
+    width: 55px;
+    height: 55px;
+    margin: 3px;
     border: 0;
     border-radius: 2px;
 }
@@ -78,26 +148,31 @@ body{
 .atomic_number{
     font-size: 0.8rem;
     font-weight: 300;
-    text-align: right;
+    text-align: left;
+    padding-left: 5px;
 }
 .symbol{
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
 }
+.name{
+    font-size: 8px;
+}
 .information{
     display: flex;
-    min-width: 100vh;
-    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 .information_element{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 20%;
-    height: 100px;
-    background: tomato;
+    min-width: 125px;
+    height: 125px;
     position: relative;
 }
 .information_electronic_configuration{
@@ -108,7 +183,7 @@ body{
     font-size: 0.55rem;
 }
 .information_symbol{
-    font-size: 1.5rem;
+    font-size: 36px;
     font-weight: 600;
 }
 .information_name{
@@ -122,9 +197,9 @@ body{
 }
 .information_atomic_number{
     font-size: 0.9rem;
+    font-weight: 900;
     padding: 7px;
-    color: lightgray;
-    background: crimson;
+    color: white;
 }
 .information_atomic_mass{
     font-size: 0.9rem;
@@ -133,9 +208,37 @@ body{
 }
 .information_table{
     background: #E6E6E6;
-    width: 90%;
-    padding: 10px;
+    width: 521px;
+    padding: 0;
+    margin: 0;
     font-weight: 600;
+    font-size: 12px;
+    border-spacing: 0;
+    border-width: 0;
+    border-collapse: collapse;
+    display: table;
+    border-color: gray;
+}
+.information_table tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.information_table tr>td:first-child{
+    border-top: 0;    
+    border-left: 0;
+    border-right: 0;
+} 
+.information_table td{
+    height: 25px;
+    padding: 0 10px !important;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.information_table td:first-child{
+    width: 125px;
+}
+.information_table td:nth-child(2){
+    width: 370px;
 }
 .info{
     font-weight: 300;
@@ -143,7 +246,18 @@ body{
 .info sup{
     font-size: 0.5rem;
 }
-.serie{
-    display: inline-block;
-    font-size: 0.8rem;
+.elementSerie{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    border: 0;
+    border-radius: 2px;
+}
+
+
+@media screen and (max-width:700px){
+    .root1{
+        width: 370px;
+        background: 'blue';
+    }
 }
